@@ -7,7 +7,7 @@
 
 
 
-This repository contains the code and data for the paper "`SelfIE`: Self-Interpretation of Large Language Model Embeddings" by [Haozhe Chen](https://tonychenxyz.github.io/), [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/), and [Chengzhi Mao](http://www.cs.columbia.edu/~mcz/).
+This repository contains the code and data for the paper "`SelfIE`: Self-Interpretation of Large Language Model Embeddings" by [Haozhe Chen](https://tonychen.xyz/), [Carl Vondrick](https://www.cs.columbia.edu/~vondrick/), and [Chengzhi Mao](http://www.cs.columbia.edu/~mcz/).
 
 ## Abstract
 The expanding impacts of Large Language Models (LLMs) increasingly require the answer to: How do LLMs obtain their answers? The ability to explain and control an LLM's reasoning process is key for reliability, transparency, and future model developments. We propose  `SelfIE` (Self-Interpretation of Embeddings) that enables LLMs to interpret their own embeddings in natural language by leveraging their ability to respond inquiry about a given passage. Capable of interpreting open-world concepts in the hidden embeddings, `SelfIE` reveals LLM internal reasoning in cases such as making ethical decisions, internalizing prompt injection, and recalling harmful knowledge. `SelfIE`'s text descriptions on hidden embeddings also open up new avenues to control LLM reasoning. We propose Supervised Control, which allows editing open-ended concepts while only requiring gradient computation of individual layer. We extend RLHF to hidden embeddings and propose Reinforcement Control that erases harmful knowledge in LLM without supervision targets. 
