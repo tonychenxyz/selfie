@@ -1,6 +1,6 @@
 # `SelfIE`: Self-Interpretation of Large Language Model Embeddings
 
-![SelfIE](assets/safety-solved-all-v3.svg)
+![SelfIE](assets/website-safety-details-fixed.svg)
 
 
 
