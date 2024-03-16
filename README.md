@@ -55,3 +55,11 @@ See full example code in `demo.ipynb`.
 
 ## Citation
 If you find this repository helpful, please consider citing our paper:
+```
+@article{chen2024selfie,
+  title={SelfIE: Self-Interpretation of Large Language Model Embeddings},
+  author={Chen, Haozhe and Vondrick, Carl and Mao, Chengzhi},
+  journal={arXiv preprint arXiv:ID_TO_UPDATE},
+  year={2024}
+}
+```
