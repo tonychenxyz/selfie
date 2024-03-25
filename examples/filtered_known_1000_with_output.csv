@@ -1,0 +1,1367 @@
+known_id,subject,attribute,template,prediction,prompt,relation_id,category,output,correct
+0,Vinson Massif,Antarctica,{} is located in the continent, of Antarctica. It is the largest of the three,Vinson Massif is located in the continent of,P30,continent, antarctica.,1
+1,Beats Music,Apple,{} is owned by," Apple, which is also the owner of Beats Electronics",Beats Music is owned by,P127,company," apple, which also",1
+2,Audible.com,Amazon,{} is owned by," Amazon.com, Inc. or its affiliates.",Audible.com is owned by,P127,company," amazon, so you",1
+4,MacApp,Apple,"{}, a product created by", Apple to help developers create apps for the iPhone and,"MacApp, a product created by",P178,company, apple to allow mac,1
+5,Giuseppe Angeli,Italy,"{}, who has a citizenship of"," Italy, was arrested in the US in May.","Giuseppe Angeli, who has a citizenship of",P27,country," italy, was born",1
+6,Catalonia,Europe,{} belongs to the continent of," Europe, and the Spanish government has been trying to",Catalonia belongs to the continent of,P30,continent, europe and is located,1
+7,Marshall Islands,English,"In {}, the language spoken is"," a mixture of English and the local language, the","In Marshall Islands, the language spoken is a mixture of",P37,language/nationality, marshallese and english,1
+8,Leslie Moonves,CBS,{} is employed by," CBS.
+
+The network's CEO, Leslie",Leslie Moonves is employed by,P108,company," cbs corporation, the",1
+10,Kirkpatrick Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest continent on Earth.",Kirkpatrick Glacier belongs to the continent of,P30,continent, antarctica.,1
+11,Army of the Guardians of the Islamic Revolution,Tehran,The headquarter of {} is in," Tehran.
+
+The headquarter of Army of",The headquarter of Army of the Guardians of the Islamic Revolution is in,P159,city, tehran.,1
+14,Eavan Boland,Dublin,{} was born in," Dublin, Ireland, in 1971. He is the",Eavan Boland was born in,P19,city," dublin, ireland in",1
+15,Comme j'ai mal,French,{} is written in," French, but it's not a French word.",Comme j'ai mal is written in,P407,language/nationality," french, and it",1
+16,Juan Bautista de Anza,Spanish,The language used by {} is, a bit different from the language used by the Spanish,The language used by Juan Bautista de Anza is a bit different from the language used by the,P1412,language/nationality, spanish colonizers.,1
+18,Tizen,Samsung,{} is developed by," a consortium of companies including Samsung, LG, and",Tizen is developed by a consortium of companies including,P178,company, samsung and intel,1
+19,Honus Wagner,baseball,{} professionally plays the sport, of baseball. He is a member of the National,Honus Wagner professionally plays the sport of,P641,sport, baseball. honus,1
+20,samurai cinema,Japan,"{}, that originated in"," Japan, and that is the most popular form of","samurai cinema, that originated in",P495,country, japan in the ,1
+21,Roman Republic,Rome,The capital of {} is," Rome, the capital of the Roman Empire. The",The capital of Roman Republic is,P36,city," rome.
+
+",1
+25,Windows Media Player,Microsoft,{} is developed by," Microsoft and is available for Windows, Mac OS X",Windows Media Player is developed by,P178,company," microsoft.
+more",1
+26,NTFS,Microsoft,{} is developed by," Microsoft and is used by Windows, Windows Server,",NTFS is developed by,P178,company, microsoft and is used,1
+28,Don Shula,football,{} professionally plays the sport," of football, and he's a great coach.",Don Shula professionally plays the sport of,P641,sport, american football. he,1
+29,El Mercurio,Spanish,The language of {} was," a mixture of Spanish and Portuguese, and the language",The language of El Mercurio was a mixture of,P407,language/nationality, spanish and quech,1
+31,Massachusetts Institute of Technology,Cambridge,The location of {} is," in Cambridge, Massachusetts.
+
+The location of",The location of Massachusetts Institute of Technology is in,P276,city," cambridge, massachusetts,",1
+32,Vietnam,Asia,{} belongs to the continent of," Asia, and the Chinese are the only people who",Vietnam belongs to the continent of,P30,continent," asia.
+
+",1
+33,The Tonight Show with Jay Leno,NBC,{} premieres on, NBC on September 17th.<|endoftext|>,The Tonight Show with Jay Leno premieres on,P449,company," nbc, with",1
+34,Philippines,Manila,"{}'s capital,"," Manila, is a city of more than 20 million","Philippines's capital,",P36,city," manila, is",1
+37,Windows Media Audio,Microsoft,"{}, a product developed by"," Microsoft, is a digital audio workstation (DA","Windows Media Audio, a product developed by",P178,company," microsoft, is a",1
+38,Galatasaray University,Istanbul,The location of {} is," in the heart of Istanbul, in the city center",The location of Galatasaray University is in the heart of,P276,city," istanbul,",1
+39,Nokia,Finnish,"In {}, the language spoken is"," Finnish, and the company is headquartered in Espoo","In Nokia, the language spoken is",P37,language/nationality," finnish, which",1
+40,Northern Nigeria Protectorate,Islam,{} follows the religion of," Islam, and is governed by Sharia law.
+",Northern Nigeria Protectorate follows the religion of,P140,religion, islam. the people,1
+41,Deobandi,Islam,{} follows the religion of," Islam, which is a monotheistic religion.",Deobandi follows the religion of,P140,religion, islam and is a,1
+44,Jean-Pierre Van Rossem,Belgium,"{}, who has a citizenship of"," Belgium, was arrested in the Netherlands on Tuesday.","Jean-Pierre Van Rossem, who has a citizenship of",P27,country," belgium, was",1
+47,Grand Duchy of Finland,Helsinki,"{}'s capital,"," Helsinki, is a city of over 1.5","Grand Duchy of Finland's capital,",P36,city," helsinki,",1
+48,Goodreads,Amazon,{} owner,", and former Amazon employee, Jeff Bezos, has","Goodreads owner, and former",P127,company," amazon employee, ot",1
+49,Rhine,Europe,{} belongs to the continent of," Europe, and is the largest city in the German",Rhine belongs to the continent of,P30,continent, europe. it is,1
+50,Muawiyah I,Islam,{} is affiliated with the religion, of Islam. He is a Muslim. He is,Muawiyah I is affiliated with the religion of,P140,religion," islam.
+
+",1
+51,Farrukhsiyar,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Farrukhsiyar follows the religion of,P140,religion, islam and is a,1
+52,Ibn Khaldun,Islam,{} follows the religion of," Islam, and his work is considered the most important",Ibn Khaldun follows the religion of,P140,religion, islam and is considered,1
+56,Si la vie est cadeau,French,{} is written in," French, but it's a very good translation of",Si la vie est cadeau is written in,P407,language/nationality," french, and it",1
+58,Magne Robo Gakeen,Japan,{} was created in the country of," Japan, and is a robot that is designed to",Magne Robo Gakeen was created in the country of,P495,country, japan and was released,1
+59,Electricidad,Spanish,The language of {} was," a mixture of Spanish and English, and the lyrics",The language of Electricidad was a mixture of,P407,language/nationality, spanish and indigen,1
+60,Swedish Orphan Biovitrum,Stockholm,{} is headquartered in," Stockholm, Sweden. The company is a subsidiary of",Swedish Orphan Biovitrum is headquartered in,P159,city," stockholm, sweden,",1
+61,Megan Rapinoe,soccer,{} professionally plays the sport, of soccer. She is a member of the U,Megan Rapinoe professionally plays the sport of,P641,sport, soccer. she,1
+62,Drake Britton,pitcher,{} plays as," the pitcher, and he's a very good pitcher",Drake Britton plays as the,P413,sports position, starting pitcher for,1
+65,LGA 775,Intel,{} is created by, Intel and is the first mainstream processor to support the,LGA 775 is created by,P176,company, intel and is used,1
+66,Suite Habana,Cuba,{} was created in the country of, Cuba in the early 1900s. The hotel was,Suite Habana was created in the country of,P495,country," cuba, and it",1
+68,Adam Curtis,BBC,{} is employed by, the BBC. He is a former BBC producer and,Adam Curtis is employed by the,P108,company," bbc, and his",1
+69,Mark Sanchez,quarterback,{} plays in the position of, quarterback for the New York Jets. He is the,Mark Sanchez plays in the position of,P413,sports position, quarterback for the,1
+70,Danish pastry,Denmark,{} was created in the country of, Denmark in the early 19th century. The Danish,Danish pastry was created in the country of,P495,country," denmark, and",1
+71,Jyllands-Posten,Danish,{} is written in," Danish, and the newspaper's offices are in Copenhagen",Jyllands-Posten is written in,P407,language/nationality, danish and has,1
+72,Sachimi Iwao,Japan,{} is a citizen of, Japan. He is a former professional baseball player who,Sachimi Iwao is a citizen of,P27,country," japan, born in",1
+73,Yakuza 2,Sega,{} is developed by, Sega and published by Sega for the PlayStation 2.,Yakuza 2 is developed by,P178,company, sega cs1,1
+74,Lexus,Toyota,{}'s owner,", Toyota, has been working with the company to","Lexus's owner,",P127,company," toyota, has",1
+77,William Herschel,astronomy,{} works in the area of, astronomy and astrophysics. He is a member of,William Herschel works in the area of,P101,academic discipline, astronomy. he,1
+78,Joseph Goebbels,Berlin,{} worked in the city of," Berlin, and was a member of the Nazi Party",Joseph Goebbels worked in the city of,P937,city, berlin as a journalist,1
+80,Saint Domnius,bishop,"{}, who has the position of"," the bishop of the city of Rome, and who","Saint Domnius, who has the position of the",P39,religious title, first bishop of sal,1
+81,Italy,Rome,"{}'s capital,"," Rome, is the most popular destination for foreign tourists","Italy's capital,",P36,city," rome, is a",1
+82,Hotel Room,HBO,{} premieres on, HBO on April 14.<|endoftext|>,Hotel Room premieres on,P449,company, hbo on may,1
+85,Urdoviza Glacier,Antarctica,{} belongs to the continent of, Antarctica. It is the largest glacier in the world,Urdoviza Glacier belongs to the continent of,P30,continent, antarctica.,1
+86,Manipur,Asia,{} belongs to the continent of, Asia. It is the largest state in South Asia,Manipur belongs to the continent of,P30,continent," asia.
+man",1
+87,2005 Southeast Asian Games,Philippines,{} is in," full swing in the Philippines.
+
+The Philippines",2005 Southeast Asian Games is in full swing in the,P276,country, philippines. the games,1
+89,Georgios Babiniotis,Greek,{}'s domain of work is, the study of the history of the Greek language.,Georgios Babiniotis's domain of work is the study of the history of the,P101,language/nationality," greek language, and",1
+90,Maumoon Abdul Gayoom,Islam,{} follows the religion of, Islam and is a member of the Ahmadiyya,Maumoon Abdul Gayoom follows the religion of,P140,religion, islam and is a,1
+91,People's Republic of Poland,Warsaw,The capital city of {} is, Warsaw. The city is located in the south-,The capital city of People's Republic of Poland is,P36,city," warsaw.
+",1
+93,Fluminense F.C.,Brazil,{} is located in the country of," Brazil, in the state of Rio Grande do Sul",Fluminense F.C. is located in the country of,P17,country," brazil.
+
+",1
+94,Bundesautobahn 113,Germany,"{}, by"," the way, is the most popular route in Germany","Bundesautobahn 113, by the way, is the most popular route in",P127,country, germany. it connect,1
+95,Petros Voulgaris,Greece,{} is a citizen of, Greece and a graduate of the University of Athens.,Petros Voulgaris is a citizen of,P27,country, greece. he is,1
+96,2005 Australian Open,Melbourne,{} is located in," Melbourne, Australia. The tournament is a major event",2005 Australian Open is located in,P276,city, melbourne park in melbourne,1
+97,Giulio Romano,Rome,{} originates from," the city of Rome, Italy. He is a",Giulio Romano originates from the city of,P19,city," rome, italy.",1
+98,Louth County Council,Ireland,{} is located in the country of, Ireland. The county is located in the south-,Louth County Council is located in the country of,P17,country," ireland.
+
+",1
+101,Internet Explorer,Microsoft,{} is developed by," Microsoft Corporation. It is available for Windows, Mac",Internet Explorer is developed by,P178,company, microsoft and is available,1
+102,Singapore,English,"In {}, the language spoken is"," English.
+
+The country is a member of","In Singapore, the language spoken is",P37,language/nationality," english, but there",1
+103,Euromoney Institutional Investor,London,{}'s headquarters are in," London, but the firm's investment banking and asset",Euromoney Institutional Investor's headquarters are in,P159,city," london, united kingdom",1
+104,Indira Gandhi International Airport,India,{} is located in the country of, India. The airport is located in the city of,Indira Gandhi International Airport is located in the country of,P17,country, india. it is,1
+105,Tang Empire,Buddhism,{} follows the religion of," the same name, which is a mix of Buddhism","Tang Empire follows the religion of the same name, which is a mix of",P140,religion," buddhism, t",1
+106,Metropolitan France,Paris,"{}'s capital,"," Paris, is the most populous city in the country","Metropolitan France's capital,",P36,city," paris, is home",1
+107,Simcoe Composite School,Canada,{} is located in the country of," Canada, in the province of Ontario. The school",Simcoe Composite School is located in the country of,P17,country," canada.
+
+",1
+108,X11.app,Apple,"{}, a product developed by"," Apple Inc.
+
+The new version of the","X11.app, a product developed by",P178,company," apple, is a",1
+110,Izzy Asper,Canada,"{}, who has a citizenship of"," Canada, is a member of the Canadian Forces.","Izzy Asper, who has a citizenship of",P27,country," canada, was born",1
+112,Vietnam,Vietnamese,"In {}, the language spoken is"," Vietnamese, and the culture is Vietnamese.
+
+","In Vietnam, the language spoken is",P37,language/nationality," vietnamese, which",1
+116,Abarth,Fiat,{}'s owner,", Fiat, has been trying to sell the brand","Abarth's owner,",P127,company, fiat chrys,1
+117,Wayne Rooney,soccer,{} professionally plays the sport, of soccer. He is a member of the England,Wayne Rooney professionally plays the sport of,P641,sport, soccer. he,1
+118,Hungarian Ladies Open,Budapest,The location of {} is," in the heart of Budapest, in the heart of",The location of Hungarian Ladies Open is in the heart of,P276,city," budapest, in the",1
+119,Kavkaz Center,Russian,The language of {} is, a bit different from the language of the Russian government,The language of Kavkaz Center is a bit different from the language of the,P407,language/nationality, russian media. k,1
+120,Etobicoke North,Canada,{} is located in the country of," Canada, in the province of Ontario. It is",Etobicoke North is located in the country of,P17,country, canada. its postal,1
+121,Gregory XII,pope,"{}, whose position is that of"," a ""superior"" pope, is the only","Gregory XII, whose position is that of a ""superior""",P39,religious title," pope, and who",1
+122,Le cose che vivi,Italian,{} is written in," Italian, and the translation is by the Italian poet",Le cose che vivi is written in,P407,language/nationality, italian and is a,1
+123,Egypt,Cairo,"{}'s capital,"," Cairo, and the country's second city, Alexandria","Egypt's capital,",P36,city," cairo, is",1
+125,Zillow,Seattle,The headquarter of {} is in," downtown Seattle, and the company's headquarters are in",The headquarter of Zillow is in downtown,P159,city," seattle, washington.",1
+126,Trento,Italy,{} is located in the country of," Italy, and is the capital of the province of",Trento is located in the country of,P17,country," italy, in the",1
+127,Jan Swammerdam,Amsterdam,{} died in the city of," Amsterdam on April 1, 1864. He was",Jan Swammerdam died in the city of,P20,city, amsterdam on february ,1
+128,Pius II,pope,{} is a, great example of a pope who was not afraid to,Pius II is a great example of a,P39,religious title, pope who was,1
+129,Royal National Theatre,London,"{}, in", London PA 20/50 10 September 2018 Alast,"Royal National Theatre, in",P131,city," london, england.",1
+130,Hamza ibn Abdul-Muttalib,Islam,{} is affiliated with the religion, of Islam. He is a Muslim scholar and a,Hamza ibn Abdul-Muttalib is affiliated with the religion of,P140,religion," islam.
+
+",1
+132,Seiyu Group,Tokyo,{}'s headquarters are in," Tokyo, Japan.
+
+The company's website",Seiyu Group's headquarters are in,P159,city," tokyo, japan.",1
+134,United Kingdom,English,"In {}, the language spoken is"," English.
+
+The language spoken in the United","In United Kingdom, the language spoken is",P37,language/nationality," english.
+
+",1
+136,Second French Empire,Paris,{}'s capital city is," Paris, which is the largest city in France.",Second French Empire's capital city is,P36,city," paris.
+
+",1
+138,Vint Cerf,Google,{} is employed by, Google as a senior advisor on Internet policy. He,Vint Cerf is employed by,P108,company, google as their chief,1
+140,"Henry Somerset, 7th Duke of Beaufort",London,{} worked in the city of, London as a merchant. He was a member of,"Henry Somerset, 7th Duke of Beaufort worked in the city of",P937,city, london as a merchant,1
+141,King Chulalongkorn Memorial Hospital,Bangkok,{}'s headquarters are in," Bangkok, Thailand. The former royal palace is now",King Chulalongkorn Memorial Hospital's headquarters are in,P159,city," bangkok,",1
+142,York University,Toronto,{} can be found in," the heart of Toronto, just a short walk from",York University can be found in the heart of,P276,city," toronto, ontario,",1
+145,United Kingdom of the Netherlands,Amsterdam,The capital city of {} is, Amsterdam. The city is located in the North of,The capital city of United Kingdom of the Netherlands is,P36,city," amsterdam.
+
+",1
+148,Fryderyk Chopin University of Music,Poland,{} is located in the country of," Poland, in the city of Krakow.",Fryderyk Chopin University of Music is located in the country of,P17,country, poland. it is,1
+149,Kingdom of Hungary,Budapest,The capital city of {} is, Budapest. The capital city of Kingdom of Hungary is,The capital city of Kingdom of Hungary is,P36,city," budapest.
+
+",1
+150,John XXIII,pope,{} holds the title of," ""the most popular pope in history.""
+
+","John XXIII holds the title of ""the most popular",P39,religious title, pope of the,1
+153,Partick Thistle F.C.,Glasgow,{} is based in," Glasgow, Scotland. The club was founded in 18",Partick Thistle F.C. is based in,P159,city," glasgow, scotland,",1
+156,Kluuvi,Finland,{} is located in the country of," Finland, and is a member of the Finnish National",Kluuvi is located in the country of,P17,country, finland. it is,1
+157,iPod Classic,Apple,{} is developed by, Apple Inc. and is manufactured in China. It,iPod Classic is developed by,P176,company, apple inc. and,1
+159,Office Online,Microsoft,{}'s owner,", Microsoft, has been working on a new version","Office Online's owner,",P127,company," microsoft, has announced",1
+160,Al-Hasakah Governorate,Syria,{} is located in the country of, Syria. The governorate is located in the north,Al-Hasakah Governorate is located in the country of,P17,country," syria.
+",1
+161,Shah Alam II,Islam,{} is affiliated with the religion," of Islam.
+
+The group's leader,",Shah Alam II is affiliated with the religion of,P140,religion, islam and is a,1
+162,Edward Teller,physics,{}'s expertise is," in the field of nuclear physics, and he has",Edward Teller's expertise is in the field of nuclear,P101,academic discipline," physics, and he",1
+163,Dirk Nowitzki,basketball,{} professionally plays the sport, of basketball. He is a member of the German,Dirk Nowitzki professionally plays the sport of,P641,sport, basketball for the dallas,1
+165,Barry Bonds,baseball,{} professionally plays the sport, of baseball. He is the only player in Major,Barry Bonds professionally plays the sport of,P641,sport," baseball.
+bar",1
+166,Lawrence Taylor,football,{} professionally plays the sport, of football. He is the only player to have,Lawrence Taylor professionally plays the sport of,P641,sport, american football. he,1
+168,Van Cliburn,piano,"{}, performing on the"," piano, was the first to be introduced.
+","Van Cliburn, performing on the",P1303,musical instrument," piano.
+
+",1
+171,2002 Australian Open,Melbourne,{} is located in," Melbourne, Australia. The tournament is a major event",2002 Australian Open is located in,P276,city, melbourne park in melbourne,1
+172,France Info,French,{} is written in," French.
+
+The French version of this page",France Info is written in,P407,language/nationality," french, but you",1
+173,"Hugh Cairns, 1st Earl Cairns",London,{} worked in the city of, London as a lawyer and a judge. He was,"Hugh Cairns, 1st Earl Cairns worked in the city of",P937,city, london. he was,1
+175,Fantastic Fest,Austin,{} can be found in," the heart of downtown Austin, Texas. The festival",Fantastic Fest can be found in the heart of downtown,P276,city," austin, texas.",1
+176,Josetsu,Japan,"{}, who has a citizenship of"," Japan, was arrested in the United States in March","Josetsu, who has a citizenship of",P27,country," japan, is a",1
+177,Final Cut Pro X,Apple,"{}, a product developed by"," Apple, is a powerful editing software that can be","Final Cut Pro X, a product developed by",P178,company," apple, is a",1
+178,I ragazzi di via Panisperna,Italian,The language of {} was," a mixture of Italian and English, and the Italian",The language of I ragazzi di via Panisperna was a mixture of,P364,language/nationality, roman dialect and italian,1
+179,IJmuiden,Netherlands,"{}, in"," the Netherlands, and the University of Amsterdam, in","IJmuiden, in the",P17,country, netherlands. the port,1
+180,Hebrew Theological College,Judaism,{} is affiliated with the religion, of Judaism. The Hebrew Theological College is a,Hebrew Theological College is affiliated with the religion of,P140,religion, judaism.,1
+184,Le Globe,French,The original language of {} is," French, and the French version of the book is",The original language of Le Globe is,P364,language/nationality," french, but it",1
+185,Alexa Internet,Amazon,{}'s owner,", Amazon, has been working on a new voice","Alexa Internet's owner,",P127,company," amazon.com,",1
+186,Revue de Paris,French,The original language of {} is, a French translation of the original French text. The,The original language of Revue de Paris is a,P364,language/nationality," french.
+
+",1
+187,West Pakistan,Karachi,The capital of {} is," Karachi, the largest city in the country. It",The capital of West Pakistan is,P36,city," karachi.
+",1
+189,Smith & Wesson,Springfield,The headquarter of {} is in," Springfield, Massachusetts.
+
+Smith & Wesson",The headquarter of Smith & Wesson is in,P159,city," springfield, massachusetts",1
+190,Astley Cooper,London,{} died in the city of, London on the evening of the 23rd of September,Astley Cooper died in the city of,P20,city," london, england,",1
+191,Gus Poyet,midfielder,{} plays in the position of," a defensive midfielder, but he is more of a",Gus Poyet plays in the position of a defensive,P413,sports position, midfielder,1
+192,Joensuu,Finnish,"In {}, the language spoken is"," Finnish.
+
+The Finnish language is a Romance","In Joensuu, the language spoken is",P37,language/nationality," finnish, which",1
+193,Dick Butkus,football,{} professionally plays the sport," of football, and he's a big fan of",Dick Butkus professionally plays the sport of,P641,sport, american football. he,1
+195,Polisse,French,The language of {} was," a mixture of French and Italian, and the language",The language of Polisse was a mixture of,P364,language/nationality, french and arabic,1
+197,Tim Tebow,quarterback,{} plays in the position of, quarterback for the New York Jets. He is the,Tim Tebow plays in the position of,P413,sports position, quarterback for the,1
+198,Brandon Jenkins (football player),linebacker,{} plays as," a linebacker in the NFL.
+
+The first",Brandon Jenkins (football player) plays as a,P413,sports position, linebacker for,1
+199,Dominic Behan,Irish,{} writes in," the Irish Times:
+
+""The Irish government",Dominic Behan writes in the,P1412,language/nationality," irish times:
+",1
+200,Passer à l'acte,French,The original language of {} was, written in the late 15th century by the French,The original language of Passer à l'acte was written in the late 15th century by the,P364,language/nationality, french poet and play,1
+201,Iruma Air Base,Japan,{} is located in the country of," Japan, and is the largest air base in the",Iruma Air Base is located in the country of,P17,country," japan, in the",1
+202,Saint Amandus,bishop,{} holds the position of, the first bishop of the city of Amandus,Saint Amandus holds the position of the first,P39,religious title, bishop of maastr,1
+203,Santo Stefano d'Aveto,Italy,{} is located in the country of," Italy, in the city of Milan. The restaurant",Santo Stefano d'Aveto is located in the country of,P17,country," italy, in the",1
+204,Windows Mobile,Microsoft,{} is developed by, Microsoft and is available for Windows Mobile devices running Windows,Windows Mobile is developed by,P178,company," microsoft, and is",1
+205,B-29 Superfortress,Boeing,{} is produced by, Boeing and has a crew of four. It is,B-29 Superfortress is produced by,P176,company, boeing. the,1
+206,"Bandai Co., Ltd.",Tokyo,{} formed in," 1979 and is headquartered in Tokyo, Japan. The","Bandai Co., Ltd. formed in 1979 and is headquartered in",P740,city," tokyo, japan.",1
+207,Johnny Unitas,football,{} professionally plays the sport, of football. He is a former quarterback for the,Johnny Unitas professionally plays the sport of,P641,sport, american football. he,1
+208,Ukrainian State,Kiev,"{}'s capital,"," Kiev, and the eastern city of Donetsk.
+","Ukrainian State's capital,",P36,city," kiev, is",1
+209,Ruokolahti,Finnish,"In {}, the language spoken is"," Finnish.
+
+The Finnish language is spoken in","In Ruokolahti, the language spoken is",P37,language/nationality, finnish. however,1
+210,Hellenic Army,Athens,{}'s headquarters are in," Athens.
+
+The Greek Army is the largest",Hellenic Army's headquarters are in,P159,city, athens. the,1
+211,Xbox,Microsoft,{}'s owner,", Microsoft, has been working on a new console","Xbox's owner,",P127,company," microsoft, has been",1
+212,Mawson Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest continent in the world",Mawson Glacier belongs to the continent of,P30,continent, antarctica.,1
+213,Panama,Spanish,"In {}, the language spoken is"," Spanish, and the people are mostly from the And","In Panama, the language spoken is",P37,language/nationality," spanish. however,",1
+214,Viacheslav Belavkin,Russian,The native language of {} is," Russian.
+
+The native language of Vladimir Putin",The native language of Viacheslav Belavkin is,P103,language/nationality, russian. he also,1
+215,Adi ibn Hatim,Islam,{} is affiliated with the religion, of Islam. He is a scholar of the Qur,Adi ibn Hatim is affiliated with the religion of,P140,religion, islam. he was,1
+216,Kingdom of Bulgaria,Bulgarian,"In {}, the language spoken is"," Bulgarian.
+
+The language spoken in Bulgaria is","In Kingdom of Bulgaria, the language spoken is",P37,language/nationality, bulgarian. in,1
+217,Nishi-Matsuura District,Japan,{} is located in the country of, Japan. It is a city with a population of,Nishi-Matsuura District is located in the country of,P17,country," japan, in the",1
+218,J-pop,Japan,"{}, that originated in"," Japan, and that is now a global phenomenon.","J-pop, that originated in",P495,country, japan in the ,1
+220,How to Make It in America,HBO,{} premieres on, HBO on April 24 at 10 p.m.,How to Make It in America premieres on,P449,company, hbo on february,1
+221,Schreckhorn,Europe,{} belongs to the continent of," Europe, and is the largest of the three species",Schreckhorn belongs to the continent of,P30,continent, europe. it is,1
+223,Cairo American College,Egypt,{} is located in the country of," Egypt, and is a private, coeducational",Cairo American College is located in the country of,P17,country," egypt.
+
+",1
+224,Khalid ibn al-Walid,Islam,{} is affiliated with the religion," of Islam. He is a Muslim, and he",Khalid ibn al-Walid is affiliated with the religion of,P140,religion," islam.
+
+",1
+225,"William Fitzwilliam, 4th Earl Fitzwilliam",English,The language used by {} is, a very interesting example of the use of the English,"The language used by William Fitzwilliam, 4th Earl Fitzwilliam is a very interesting example of the use of the",P1412,language/nationality, english language in the,1
+227,Lisa Ekdahl,Swedish,The native language of {} is," Swedish.
+
+Contents show]
+
+Bi",The native language of Lisa Ekdahl is,P103,language/nationality, swedish. she was,1
+228,Ginza Line,Japan,{} is located in the country of," Japan, and is the second busiest rail line in",Ginza Line is located in the country of,P17,country, japan. it is,1
+229,Core 2,Intel,"{}, a product developed by"," Intel, is a new generation of Intel Core processors","Core 2, a product developed by",P178,company," intel, is a",1
+230,Francis Poulenc,piano,{} performs on the, piano during the opening ceremony of the International Congress of,Francis Poulenc performs on the,P1303,musical instrument," piano.
+
+",1
+231,Raseborg,Swedish,"In {}, the language spoken is"," Swedish, and the city is home to the largest","In Raseborg, the language spoken is",P37,language/nationality," swedish, which is",1
+233,Seychelles,English,"In {}, the language spoken is"," a mix of English, French, and local Cre","In Seychelles, the language spoken is a mix of",P37,language/nationality," french, english and",1
+234,Count Basie,piano,{} performs on the, piano during the opening ceremony of the 2016 Summer Olympics,Count Basie performs on the,P1303,musical instrument, piano during a concert,1
+235,State University of New York,Albany,The headquarter of {} is in," Albany, New York.
+
+The headquarter",The headquarter of State University of New York is in,P159,city," albany, new",1
+237,Sundsvall Municipality,Swedish,"In {}, the language spoken is"," Swedish.
+
+The Swedish language is the official","In Sundsvall Municipality, the language spoken is",P37,language/nationality, swedish. this means,1
+238,Walter Payton,football,{} professionally plays the sport, of football. He is a member of the Pro,Walter Payton professionally plays the sport of,P641,sport, american football. he,1
+239,Riona Hazuki,Tokyo,{} was born in," Tokyo, Japan, and raised in the United States",Riona Hazuki was born in,P19,city," tokyo, japan.",1
+241,Siemiatycze,Poland,{} is located in the country of," Poland, in the south-west of the country",Siemiatycze is located in the country of,P17,country," poland, in the",1
+243,Optimistique-moi,French,{} is written in," French and English.
+
+The book is available",Optimistique-moi is written in,P407,language/nationality," french, but it",1
+244,Maurice Richard,hockey,{} professionally plays the sport, of hockey. He is a member of the National,Maurice Richard professionally plays the sport of,P641,sport, ice hockey. he,1
+245,Farouk of Egypt,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Farouk of Egypt follows the religion of,P140,religion," islam.
+
+",1
+248,Knowledge Graph,Google,{} is owned by, Google and is used to store and retrieve information about,Knowledge Graph is owned by,P127,company, google and is a,1
+249,File Explorer,Microsoft,"{}, a product developed by"," Microsoft, allows users to browse and search the contents","File Explorer, a product developed by",P178,company," microsoft, is a",1
+251,Vegard Skogheim,midfielder,{} plays in the position of," a defensive midfielder, but he is also a striker",Vegard Skogheim plays in the position of a defensive,P413,sports position, midfielder,1
+252,Dannii Minogue,Australia,{} was created in the country of," Australia, and is a singer, songwriter,",Dannii Minogue was created in the country of,P495,country, australia on october ,1
+253,Kyōto Prefecture,Kyoto,"{}, which was named after"," the city of Kyoto, is the largest city in","Kyōto Prefecture, which was named after the city of",P138,city, kyoto. in,1
+255,Galata,Istanbul,{} is within," the city limits of the city of Istanbul, which",Galata is within the city limits of the city of,P131,city," istanbul,",1
+256,Godrej Consumer Products Limited,Mumbai,{} is headquartered in," Mumbai, India. The company is listed on the",Godrej Consumer Products Limited is headquartered in,P159,city," mumbai,",1
+257,Henri Estienne,Paris,{} was born in, Paris in 1874. He was a member of,Henri Estienne was born in,P19,city, paris in 1,1
+258,Hidamari Sketch,Japan,{} was created in the country of," Japan, and it was the first anime to be",Hidamari Sketch was created in the country of,P495,country," japan.
+
+",1
+259,Sandro Botticelli,Florence,{} died in the city of," Florence in 1512. He was a painter,",Sandro Botticelli died in the city of,P20,city, florence in 1,1
+261,Bubba Smith,football,{} professionally plays the sport, of football. He is a former NFL player and,Bubba Smith professionally plays the sport of,P641,sport, american football. he,1
+262,Afghanistan,Asia,{} belongs to the continent of," Asia, and the region is home to the largest",Afghanistan belongs to the continent of,P30,continent, asia and is border,1
+264,Satoru Iwata,Nintendo,{} is employed by," Nintendo.
+
+Iwata is the president",Satoru Iwata is employed by,P108,company," nintendo, and",1
+265,Hyder Ali,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Hyder Ali follows the religion of,P140,religion, islam and is a,1
+266,Mykola Tomenko,Ukraine,{} is a citizen of," Ukraine. He is a journalist, a writer,",Mykola Tomenko is a citizen of,P27,country," ukraine, who was",1
+267,Mount Cocks,Antarctica,{} is located in the continent, of Antarctica. It is the largest of the three,Mount Cocks is located in the continent of,P30,continent, antarctica.,1
+268,Maurice Faure,French,The native language of {} is," French.
+
+Contents show]
+
+Bi",The native language of Maurice Faure is,P103,language/nationality, french. he speak,1
+272,Saint Perpetuus,bishop,{} has the position of," the first bishop of the Church of the East,",Saint Perpetuus has the position of the first,P39,religious title, bishop of tours,1
+273,Jaromír Jágr,hockey,{} professionally plays the sport, of ice hockey. He is a member of the,Jaromír Jágr professionally plays the sport of ice,P641,sport, hockey. he is,1
+274,Show Me a Hero,HBO,{} premieres on, HBO on April 10.<|endoftext|>,Show Me a Hero premieres on,P449,company, hbo on august,1
+276,Jeremy Paxman,BBC,{} is employed by, the BBC as a political editor. He is also,Jeremy Paxman is employed by the,P108,company, bbc to present news,1
+277,Claude d'Annebault,France,{} is a citizen of, France. He is a member of the French National,Claude d'Annebault is a citizen of,P27,country, france who has been,1
+278,Sukarno,Islam,{} is affiliated with the religion," of Islam.
+
+The Indonesian government has been",Sukarno is affiliated with the religion of,P140,religion," islam.
+
+",1
+279,Tim Horton,hockey,{} professionally plays the sport," of hockey, and he's a big fan of",Tim Horton professionally plays the sport of,P641,sport, ice hockey for the,1
+280,Australian Mathematical Society,mathematics,{}'s expertise is," in the areas of mathematics, statistics, and computer",Australian Mathematical Society's expertise is in the areas of,P101,academic discipline, mathematics and statistics.,1
+281,Cabernet Franc,France,"{}, which is named for"," the region of France where it was first produced,","Cabernet Franc, which is named for the region of",P138,country, france where it origin,1
+282,Greg Dyke,BBC,{} works for, the BBC. He is a former editor of the,Greg Dyke works for the,P108,company," bbc.
+g",1
+283,Germanus of Auxerre,bishop,"{}, who has the position of", a bishop in the diocese of Auxerre,"Germanus of Auxerre, who has the position of a",P39,religious title, bishop in the catholic,1
+286,Josh McCown,quarterback,{} plays in the position of, quarterback for the Cleveland Browns. He is a former,Josh McCown plays in the position of,P413,sports position, quarterback for the,1
+289,Franz Xaver Gabelsberger,Munich,{} worked in the city of, Munich from 1885 to 1891. He was,Franz Xaver Gabelsberger worked in the city of,P937,city," munich, where",1
+290,"Saint-Louis-de-Kent, New Brunswick",Canada,{} is located in the country of, Canada. It is a city of about 1.,"Saint-Louis-de-Kent, New Brunswick is located in the country of",P17,country," canada.
+
+",1
+292,Otto von Bismarck,Berlin,{} worked in the city of," Berlin, and was a member of the Prussian",Otto von Bismarck worked in the city of,P937,city," berlin.
+
+",1
+293,Christian Medical College Ludhiana,India,{} is located in the country of, India. It is a private medical college and is,Christian Medical College Ludhiana is located in the country of,P17,country, india. it is,1
+294,Austrian Empire,Vienna,{}'s capital city is," Vienna.
+
+The Austrian Empire is a country",Austrian Empire's capital city is,P36,city," vienna.
+
+",1
+296,Inoue Genan Inseki,Japan,{} is native to, Japan and is a graduate of the University of Tokyo,Inoue Genan Inseki is native to,P19,country, japan and is a,1
+298,Pierre Blanchar,French,The native language of {} is," French.
+
+Pierre Blanchar is the",The native language of Pierre Blanchar is,P103,language/nationality," french.
+
+",1
+299,Ivan Gudelj,midfielder,{} plays in the position of," a defensive midfielder, but he is also a striker",Ivan Gudelj plays in the position of a defensive,P413,sports position, midfielder,1
+300,Courant Institute of Mathematical Sciences,mathematics,{}'s expertise is," in the areas of mathematics, statistics, and computer",Courant Institute of Mathematical Sciences's expertise is in the areas of,P101,academic discipline, mathematics and computer science,1
+302,Russian Post,Moscow,The headquarter of {} is in," Moscow.
+
+The Russian Post is a subsidiary",The headquarter of Russian Post is in,P159,city, moscow. the company,1
+305,Prada,Milan,{} originated in," Milan, Italy, in the early 1900s.",Prada originated in,P740,city," milan, italy in",1
+306,Paul Morand,Paris,{} died in the city of," Paris on Sunday, aged 85.
+
+The",Paul Morand died in the city of,P20,city," his birth, paris",1
+307,Mike Piazza,catcher,{} plays in the position of," catcher, but he's not a catcher. He",Mike Piazza plays in the position of,P413,sports position, catcher for the,1
+308,Lupin III,Japan,{} was created in the country of," his birth, Japan, and is the third of","Lupin III was created in the country of his birth,",P495,country," japan, and has",1
+309,Marugame,Japan,{} is located in the country of," Japan, and is the largest city in the K",Marugame is located in the country of,P17,country," japan, in the",1
+311,Benedict XVI,pope,"{}, who has the position of"," the pope of the Roman Catholic Church, has been","Benedict XVI, who has the position of the",P39,religious title, pope emeritus,1
+313,Amiibo,Nintendo,{} is developed by, Nintendo and published by Nintendo. It is a series,Amiibo is developed by,P178,company, nintendo and is,1
+314,Sergey Aksyonov,Russian,The native language of {} is," Russian.
+
+Aksyonov is a",The native language of Sergey Aksyonov is,P103,language/nationality, russian. sergey,1
+317,PlayStation Eye,Sony,{} is developed by, Sony Computer Entertainment and is available for the PlayStation 3,PlayStation Eye is developed by,P176,company, sony computer entertainment and,1
+319,Ma vie en rose,French,The original language of {} is, a French-language novel by the French writer Jean,The original language of Ma vie en rose is a,P364,language/nationality, mix of french and,1
+320,Georges Pompidou,French,The native language of {} is," French.
+
+Georges Pompidou",The native language of Georges Pompidou is,P103,language/nationality," french.
+
+",1
+321,Windows Phone 7,Microsoft,{} is developed by, Microsoft and is available for Windows Phone 7 devices.,Windows Phone 7 is developed by,P176,company," microsoft, which is",1
+322,Barry Zito,pitcher,{} plays in the position of," the pitcher, and he's a good one.",Barry Zito plays in the position of the,P413,sports position, pitcher for the,1
+323,Ruhollah Khomeini,Islam,{} follows the religion of," Islam, and he is a Muslim. He is",Ruhollah Khomeini follows the religion of,P140,religion, islam and is a,1
+324,iPhone,Apple,{} is developed by, Apple Inc. and is manufactured in China. It,iPhone is developed by,P176,company, apple inc. and,1
+325,Charlie Hebdo,French,{} is written in," French, but the cartoons are in English.
+",Charlie Hebdo is written in,P407,language/nationality," french, and its",1
+327,Morteza Momayez,Tehran,{} passed away in," a hospital in Tehran on Sunday, according to the",Morteza Momayez passed away in a hospital in,P20,city, tehran on,1
+331,aloha,Hawaiian,{} is written in," the Hawaiian language.
+
+The first time I",aloha is written in the,P407,language/nationality, hawaiian language and,1
+332,Mako Idemitsu,Tokyo,{} was born in," Tokyo, Japan, on July 1, 1967.",Mako Idemitsu was born in,P19,city," tokyo, japan in",1
+333,Uqba ibn Nafi,Islam,{} is affiliated with the religion," of Islam.
+
+The Prophet (peace be",Uqba ibn Nafi is affiliated with the religion of,P140,religion," islam.
+
+",1
+334,Aarau,German,"In {}, the language spoken is"," a mixture of German and English.
+
+The","In Aarau, the language spoken is a mixture of",P37,language/nationality, swiss german and standard,1
+335,Mizoram,India,"{}, in"," the north-east of India, is a state","Mizoram, in the north-east of",P131,country," india, is a",1
+337,Moses Malone,basketball,{} professionally plays the sport, of basketball. He is a member of the NBA,Moses Malone professionally plays the sport of,P641,sport, basketball. he is,1
+338,Gerlache Strait,Antarctica,{} is located in the continent, of Antarctica. It is the southernmost point of,Gerlache Strait is located in the continent of,P30,continent, antarctica.,1
+340,YouTube,Google,{}'s owner,", Google, has been accused of censoring conservative","YouTube's owner,",P127,company," google, has been",1
+341,Michio Kaku,physics,{} works in the area of, theoretical physics and cosmology. He is the author,Michio Kaku works in the area of theoretical,P101,academic discipline," physics, and his",1
+342,Petrozavodsk,Russian,"In {}, the language spoken is"," Russian.
+
+The city's main street is","In Petrozavodsk, the language spoken is",P37,language/nationality," russian.
+
+",1
+343,Phil Knight,Nike,"{}, of"," Nike, said: ""We are proud to be","Phil Knight, of",P108,company," nike fame,",1
+345,Paul Otellini,Intel,{} is employed by," Intel, the world's largest chip maker, and",Paul Otellini is employed by,P108,company, intel as its ce,1
+347,George Martin,piano,{} performs on the, piano during the opening ceremony of the 2012 London Olympics,George Martin performs on the,P1303,musical instrument, piano during a recording,1
+348,Howard Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest ice sheet in the",Howard Glacier belongs to the continent of,P30,continent, antarctica.,1
+354,Rogers Media,Toronto,{} formed in, 2011 and is based in Toronto.<|endoftext|>,Rogers Media formed in 2011 and is based in,P740,city," toronto, canada.",1
+356,Gavork-e Nalin Rural District,Iran,{} is located in the country of, Iran. It is a mountainous region with a total,Gavork-e Nalin Rural District is located in the country of,P17,country," iran, in the",1
+358,Melitopol,Ukrainian,The official language of {} is," Ukrainian, but the majority of the population speaks Russian",The official language of Melitopol is,P37,language/nationality," ukrainian, but",1
+359,Hafez,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Hafez follows the religion of,P140,religion, islam and is a,1
+362,The New Dick Van Dyke Show,CBS,{} debuted on, CBS in January of 1978. The show was a,The New Dick Van Dyke Show debuted on,P449,company, cbs in 1,1
+363,Ahmad al-Badawi,Islam,{} follows the religion of," Islam, and he is a Muslim. He is",Ahmad al-Badawi follows the religion of,P140,religion, islam and is a,1
+366,Banco di Napoli,Naples,"{}, that originated in"," Naples, is the largest bank in Italy. It","Banco di Napoli, that originated in",P740,city, naples in ,1
+368,Mark Messier,hockey,{} professionally plays the sport, of hockey. He is a member of the New,Mark Messier professionally plays the sport of,P641,sport, ice hockey. he,1
+370,Joe Louis Arena,Detroit,"{}, from"," the Detroit Red Wings, and the Detroit Tigers,","Joe Louis Arena, from the",P127,city, detroit red wings,1
+371,Grenada,English,"In {}, the language spoken is"," English, but the culture is Caribbean.
+
+","In Grenada, the language spoken is",P37,language/nationality," english, and the",1
+372,Vita Semerenko,Ukraine,"{}, who has a citizenship of"," Ukraine, was arrested in the city of Kras","Vita Semerenko, who has a citizenship of",P27,country," ukraine and russia,",1
+376,Brian Krzanich,Intel,{} is employed by," Intel, and he's the CEO of the company",Brian Krzanich is employed by,P108,company," intel corporation.
+",1
+380,iTunes,Apple,{} is developed by, Apple Inc. and is available for free download from,iTunes is developed by,P178,company, apple inc. and,1
+381,Gary Lineker,BBC,{} is employed by," the BBC as a football pundit.
+
+",Gary Lineker is employed by the,P108,company, bbc as a sports,1
+383,Big Love,HBO,{} premieres on, HBO on April 14.<|endoftext|>,Big Love premieres on,P449,company," hbo
+the",1
+384,Shetland Islands,Scotland,"{}, in"," the north of Scotland, and the Isle of Man","Shetland Islands, in the north of",P131,country, scotland. the island,1
+385,Giacinto Brandi,Rome,{} died in the city of, Rome in the year 1492. He was a,Giacinto Brandi died in the city of,P20,city, rome on november ,1
+386,Plus belle la vie,French,The original language of {} is, a French-language version of the original French-,The original language of Plus belle la vie is a,P364,language/nationality," french language, and",1
+389,O'Hare International Airport,Chicago,{}'s owner,", the Chicago Department of Aviation, has been working","O'Hare International Airport's owner, the",P127,city," city of chicago,",1
+390,Peru,Spanish,The official language of {} is," Spanish, but the country is home to a large",The official language of Peru is,P37,language/nationality," spanish, but many",1
+391,Georges Duhamel,Paris,{} was born in," Paris, France, on May 23, 1872",Georges Duhamel was born in,P19,city," paris, france,",1
+392,Sharmila Tagore,Islam,{} is affiliated with the religion, of Islam. She is a member of the All,Sharmila Tagore is affiliated with the religion of,P140,religion," islam.
+sh",1
+393,Helsinki,Finnish,"In {}, the language spoken is"," Finnish, and the city is home to the largest","In Helsinki, the language spoken is",P37,language/nationality," finnish, which",1
+394,William Camden,history,{}'s domain of work is, the history of the English language. He is the,William Camden's domain of work is the,P101,academic discipline, history of the elizabeth,1
+398,Delphine de Girardin,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Delphine de Girardin is,P103,language/nationality, french. she was,1
+400,Teen Mom,MTV,{} debuted on," MTV in 2009, and the show has been a",Teen Mom debuted on,P449,company, mtv in 2,1
+401,Argentine National Anthem,Argentina,{} is located in the country of, Argentina. The song was written by Argentine composer Juan,Argentine National Anthem is located in the country of,P17,country," argentina.
+
+",1
+402,Jules Michelet,Paris,{} was born in, Paris in 1825. He was a French writer,Jules Michelet was born in,P19,city," paris, france,",1
+403,Kirkby Glacier,Antarctica,{} belongs to the continent of, Antarctica. It is the largest glacier in the world,Kirkby Glacier belongs to the continent of,P30,continent, antarctica.,1
+405,Lapland Odyssey,Finnish,The language of {} is, a mixture of Finnish and Swedish. The language of,The language of Lapland Odyssey is a mixture of,P407,language/nationality, finnish and sam,1
+407,Delia Derbyshire,BBC,{} is employed by, the BBC as a freelance journalist. She is a,Delia Derbyshire is employed by the,P108,company, bbc radioph,1
+408,Shigeki Maruyama,Japan,{} is a citizen of," Japan. He is a writer, a journalist,",Shigeki Maruyama is a citizen of,P27,country, japan. he was,1
+409,Windows Genuine Advantage,Microsoft,{} is a product of," the Microsoft Corporation.
+
+Microsoft Windows Genuine",Windows Genuine Advantage is a product of the,P178,company, microsoft corporation. it,1
+410,"Elizabeth Butler-Sloss, Baroness Butler-Sloss",London,{} worked in the city of, London for the Metropolitan Police from 1997 to 2010.,"Elizabeth Butler-Sloss, Baroness Butler-Sloss worked in the city of",P937,city, london as a bar,1
+411,Emmanuel Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest ice sheet in the",Emmanuel Glacier belongs to the continent of,P30,continent, antarctica.,1
+412,EA-18G Growler,Boeing,"{}, developed by"," Boeing, is a small, unmanned aircraft that can","EA-18G Growler, developed by",P176,company, boeing and north,1
+415,Eibenstock,Germany,{} is located in the country of," Germany, and is a member of the German Association",Eibenstock is located in the country of,P17,country," germany, in the",1
+416,Acca of Hexham,bishop,{} holds the position of, the first female bishop of the Church of England.,Acca of Hexham holds the position of the first female,P39,religious title, bishop in the ang,1
+417,"Sir Francis Baring, 1st Baronet",London,{} worked in the city of, London as a solicitor. He was a member of,"Sir Francis Baring, 1st Baronet worked in the city of",P937,city, london as a merchant,1
+418,Windows Media Player,Microsoft,{}'s owner,", Microsoft, has been working on a new version","Windows Media Player's owner,",P127,company," microsoft, has released",1
+419,Georges Gorse,French,The native language of {} is," French.
+
+Georges Gorse is the",The native language of Georges Gorse is,P103,language/nationality," french.
+
+",1
+422,Kindle Fire,Amazon,"{}, created by"," Amazon, is a digital book that can be read","Kindle Fire, created by",P176,company," amazon, is a",1
+423,Koichi Ishii,Japan,{} is native to, Japan and has been a professional artist for over 20,Koichi Ishii is native to,P19,country, japan and has been,1
+426,iPod Mini,Apple,{} is developed by, Apple in conjunction with the iPod team at iPod.,iPod Mini is developed by,P176,company, apple inc. and,1
+427,Mitsubishi Corporation,Tokyo,{}'s headquarters are in," Tokyo.
+
+The company's shares have fallen",Mitsubishi Corporation's headquarters are in,P159,city," tokyo, japan.",1
+428,Philip Glass,piano,{} plays," the piano in the film.
+
+The film",Philip Glass plays the,P1303,musical instrument, piano in his studio,1
+429,Animator.ru,Russian,{} is written in," Russian, but the language is not a problem.",Animator.ru is written in,P407,language/nationality," russian, but it",1
+433,British Museum,London,The location of {} is," in the heart of London, in the heart of",The location of British Museum is in the heart of,P276,city," london, and it",1
+434,Harvard Law School,Cambridge,The location of {} is," in Cambridge, Massachusetts.
+
+The location of",The location of Harvard Law School is in,P276,city," cambridge, massachusetts,",1
+435,Voodoo Lounge,English,The original language of {} is, a blend of English and French. The French version,The original language of Voodoo Lounge is a blend of,P364,language/nationality, english and hait,1
+436,Acura ZDX,Honda,{} is developed by," Honda Motor Co., Ltd. and is the first",Acura ZDX is developed by,P176,company, honda for its,1
+438,Yangtze,Asia,{} belongs to the continent of," Asia, and is the largest river in the world",Yangtze belongs to the continent of,P30,continent," asia.
+the",1
+439,Le Moniteur Universel,French,{} is written in," French and is available in French, English, German",Le Moniteur Universel is written in,P407,language/nationality," french.
+
+",1
+440,RIA Novosti,Russian,{} is written in," Russian.
+
+The Russian Foreign Ministry said on",RIA Novosti is written in,P407,language/nationality," russian and english,",1
+442,Final Fantasy,Square,{} is developed by, Square Enix and published by Square Enix. The game,Final Fantasy is developed by,P178,company, square enix.,1
+443,Vilfredo Pareto,sociology,{} works in the area of, economics and sociology. He is a professor of economics,Vilfredo Pareto works in the area of economics and,P101,academic discipline, sociology. he,1
+444,Steve Ballmer,Microsoft,{} is employed by," Microsoft, and he's the CEO of the company",Steve Ballmer is employed by,P108,company, microsoft as its ce,1
+445,Antonio Marcello Barberini,Rome,{} died in the city of," Rome on Sunday, aged 84.
+
+The",Antonio Marcello Barberini died in the city of,P20,city, rome on 1,1
+446,Windows Phone 8.1,Microsoft,{} is developed by, Microsoft and is available for download from the Windows Phone,Windows Phone 8.1 is developed by,P178,company," microsoft, which is",1
+448,Scania,Sweden,{} was created in the country of, Sweden in 1866. The company was founded by,Scania was created in the country of,P495,country, sweden in 1,1
+449,Le Quotidien de Paris,French,{} is written in," French, and the French translation is available online.",Le Quotidien de Paris is written in,P407,language/nationality," french.
+
+",1
+450,Toulouse,Europe,{} belongs to the continent of," Europe, and the French are the most cultured people",Toulouse belongs to the continent of,P30,continent," europe.
+t",1
+451,Indonesia,Jakarta,"{}'s capital,"," Jakarta, is a city of more than 10 million","Indonesia's capital,",P36,city," jakarta, is",1
+452,Bernard Giraudeau,French,The native language of {} is," French.
+
+Bernard Giraudeau is",The native language of Bernard Giraudeau is,P103,language/nationality, french. he is,1
+453,Il Posto,Italian,The original language of {} is," a mixture of Italian and Spanish, and the newspaper",The original language of Il Posto is a mixture of,P364,language/nationality, italian and venet,1
+454,Hersekzade Ahmed Pasha,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Hersekzade Ahmed Pasha follows the religion of,P140,religion, islam and is known,1
+455,iTunes Radio,Apple,{} was created by, the folks at Apple in order to give you a,iTunes Radio was created by the folks at,P178,company," apple, and it",1
+456,tatami,Japan,"{}, that originated in"," Japan, is a traditional Japanese meal. It is","tatami, that originated in",P495,country, japan. the t,1
+458,Die Nibelungen,German,The original language of {} was," written in German, and the translation was done by",The original language of Die Nibelungen was written in,P364,language/nationality," middle high german,",1
+460,Yves Rocard,Paris,{} died in the city of," Paris on March 18, 1864. He was",Yves Rocard died in the city of,P20,city," his birth, paris",1
+461,Mario Bros.,Nintendo,{} is developed by, Nintendo and published by Nintendo. It is the first,Mario Bros. is developed by,P178,company, nintendo and is,1
+462,Viking Age,Europe,{} belongs to the continent of," Europe, and the Vikings were a seafaring people",Viking Age belongs to the continent of,P30,continent," europe.
+
+",1
+463,Sjogren Glacier,Antarctica,{} belongs to the continent of, Antarctica. It is the largest glacier in the world,Sjogren Glacier belongs to the continent of,P30,continent, antarctica.,1
+464,David Mellor,London,{} worked in the city of," London for more than 30 years, and is now",David Mellor worked in the city of,P937,city, london for many years,1
+465,Donato Bramante,Rome,{} died in the city of," Rome, Italy, on May 5, 1864",Donato Bramante died in the city of,P20,city," rome, italy,",1
+466,Lexus LF,Toyota,"{}, developed by"," Toyota, is the first car to be built with","Lexus LF, developed by",P176,company, the toyota motor,1
+467,Windows Embedded CE 6.0,Microsoft,{} is created by," Microsoft Corporation.
+
+Microsoft Windows Embedded CE",Windows Embedded CE 6.0 is created by,P178,company, microsoft and is used,1
+468,Abdolkarim Soroush,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Abdolkarim Soroush follows the religion of,P140,religion, islam and is a,1
+469,Alfred Savoir,French,The native language of {} is," French.
+
+The native language of Alfred Sav",The native language of Alfred Savoir is,P103,language/nationality, french. he was,1
+470,All India Anna Dravida Munnetra Kazhagam,Chennai,The headquarter of {} is located in, the city of Chennai. The state unit of the,The headquarter of All India Anna Dravida Munnetra Kazhagam is located in the city of,P159,city, chennai.,1
+471,Microsoap,BBC,{} premiered on, the BBC in the UK in the summer of 2014,Microsoap premiered on the,P449,company, bbc in 1,1
+473,The Late Late Show with Craig Ferguson,CBS,{} premieres on," CBS on Monday, September 22 at 11:35",The Late Late Show with Craig Ferguson premieres on,P449,company," cbs.
+
+",1
+474,Arne Vidar Røed,Norway,{} is a citizen of, Norway and a member of the Norwegian Parliament. He,Arne Vidar Røed is a citizen of,P27,country, norway. he is,1
+475,Antoni Brodowski,Warsaw,{} worked in, the office of the mayor of the city of Warsaw,Antoni Brodowski worked in the office of the mayor of the city of,P937,city, warsaw. he,1
+476,Jeff Zucker,CNN,"{}, of"," CNN, said the network would not be ""polit","Jeff Zucker, of",P108,company," cnn, said that",1
+477,Ne partez pas sans moi,French,{} is written in," French, but it's a very simple sentence.",Ne partez pas sans moi is written in,P407,language/nationality," french, which means",1
+478,Peru,Lima,"{}'s capital,"," Lima, is a city of more than 2 million","Peru's capital,",P36,city," lima, is a",1
+480,2004 Australian Open,Melbourne,{} is located in," Melbourne, Australia. The tournament is a major event",2004 Australian Open is located in,P276,city, melbourne park in melbourne,1
+482,Jeremy Vine,BBC,{} is employed by, the BBC as a freelance journalist. He is a,Jeremy Vine is employed by the,P108,company," bbc, which is",1
+484,Sandy Bridge,Intel,{} is developed by, Intel and is based on the Ivy Bridge architecture.,Sandy Bridge is developed by,P178,company, intel and is a,1
+485,Second Spanish Republic,Madrid,"{}'s capital,"," Madrid, is a city of more than 7 million","Second Spanish Republic's capital,",P36,city," madrid, was the",1
+486,Le Mauricien,French,{} is written in," French, and the French version is available on the",Le Mauricien is written in,P407,language/nationality, french and is published,1
+487,Windows Live Mail,Microsoft,{} is developed by," Microsoft and is available for Windows, Mac, and",Windows Live Mail is developed by,P176,company, microsoft and is available,1
+488,Commonwealth of England,London,The capital city of {} is," London.
+
+The capital city of Commonwealth of",The capital city of Commonwealth of England is,P36,city," london.
+the",1
+489,Tokyo Mew Mew,Japan,"{}, that originated in"," Japan, is a popular snack in the United States","Tokyo Mew Mew, that originated in",P495,country, japan in 2,1
+491,Johnson Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest ice sheet in the",Johnson Glacier belongs to the continent of,P30,continent, antarctica.,1
+492,Dildar Ali Naseerabadi,Islam,{} follows the religion of, Islam and is a member of the Ahmadiyya,Dildar Ali Naseerabadi follows the religion of,P140,religion, islam and is a,1
+493,Marguerite Yourcenar,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Marguerite Yourcenar is,P103,language/nationality," french.
+
+",1
+495,iPhone 3GS,Apple,{} is developed by, Apple Inc. and is manufactured by Foxconn Technology,iPhone 3GS is developed by,P176,company, apple inc. and,1
+496,Mi Reflejo,Spanish,The language of {} was," a mixture of Spanish and English, and the lyrics",The language of Mi Reflejo was a mixture of,P407,language/nationality," spanish and english,",1
+497,Chandigarh,Asia,{} belongs to the continent of, Asia. It is the capital of the state of,Chandigarh belongs to the continent of,P30,continent," asia.
+ch",1
+498,Outside the Lines,ESPN,{} debuted on," ESPN on Sept. 24, 2011, and has",Outside the Lines debuted on,P449,company, espn in ,1
+499,Hideki Shirakawa,Tokyo,{} was born in," Tokyo, Japan on July 1, 1949. He",Hideki Shirakawa was born in,P19,city," tokyo, japan,",1
+500,Weta Digital,Wellington,The headquarter of {} is in," Wellington, New Zealand.
+
+Weta Digital",The headquarter of Weta Digital is in,P159,city," wellington, new",1
+503,Internet Explorer 10,Microsoft,{} is developed by," Microsoft and is available for Windows, Mac OS X",Internet Explorer 10 is developed by,P178,company, microsoft and is available,1
+504,Russell Wilson,football,{} professionally plays the sport," of football, but he's also a huge fan",Russell Wilson professionally plays the sport of,P641,sport, american football. he,1
+505,Ibn Battuta,Islam,{} follows the religion of," Islam, and his writings are considered to be the",Ibn Battuta follows the religion of,P140,religion, islam and is considered,1
+507,Lyse Doucet,BBC,{} works for, the BBC in London. She is a former BBC,Lyse Doucet works for the,P108,company, bbc as a journalist,1
+508,Minnesota Strikers,Minneapolis,The headquarter of {} is located in, the heart of downtown Minneapolis. The Strikers,The headquarter of Minnesota Strikers is located in the heart of downtown,P159,city," minneapolis,",1
+510,Wii Balance Board,Nintendo,{} is produced by, Nintendo and is compatible with the Wii Balance Board.,Wii Balance Board is produced by,P176,company, nintendo and is,1
+511,Gwen Ifill,PBS,"{}, of"," PBS, said the network was ""deeply troubled","Gwen Ifill, of",P108,company, pbs newsh,1
+512,Osman I,Islam,{} follows the religion of," Islam, and is a Muslim. He is a",Osman I follows the religion of,P140,religion, islam and is considered,1
+513,Henri Maurice Berteaux,France,{} is a citizen of, France. He is a citizen of the United States,Henri Maurice Berteaux is a citizen of,P27,country," france, and is",1
+514,The Hague,Europe,{} belongs to the continent of," Europe, and the Netherlands is a member of the",The Hague belongs to the continent of,P30,continent, europe. it is,1
+515,Myongji University,Seoul,"{}, in"," Seoul, South Korea, and the University of California","Myongji University, in",P131,city," seoul, south",1
+517,Trailer Park Boys,Netflix,{} premieres on, Netflix on July 17.<|endoftext|>,Trailer Park Boys premieres on,P449,company," netflix
+",1
+518,Gareth Barry,midfielder,{} plays in the position of," a central midfielder, but he is more of a",Gareth Barry plays in the position of a central,P413,sports position, midfielder,1
+520,Second Polish Republic,Warsaw,{}'s capital city is," Warsaw, which is the largest city in Poland.",Second Polish Republic's capital city is,P36,city," warsaw.
+",1
+521,Charles Babbage,mathematics,{} works in the field of," mathematics, and he is the father of the computer",Charles Babbage works in the field of,P101,academic discipline, mathematics and computer science,1
+522,Charles Louis Alphonse Laveran,Paris,{} died in the city of," Paris on March 1, 1864. He was",Charles Louis Alphonse Laveran died in the city of,P20,city," paris, france,",1
+523,Buichi Terasawa,Japan,{} is a citizen of, Japan. He is a member of the Japanese Communist,Buichi Terasawa is a citizen of,P27,country, japan who was kid,1
+525,Luhansk Oblast,Russian,"In {}, the language spoken is"," Russian.
+
+The Russian language is also spoken","In Luhansk Oblast, the language spoken is",P37,language/nationality," russian, and in",1
+526,Tycho Brahe,astronomy,{}'s expertise is," in the field of astronomy, and he is the",Tycho Brahe's expertise is in the field of,P101,academic discipline," astronomy, and",1
+527,Sesamstraat,Dutch,{} is written in," Dutch, and the Dutch version of the website is",Sesamstraat is written in,P407,language/nationality, a mix of dutch,1
+529,Mohammad-Taqi Mesbah-Yazdi,Iran,"{}, a citizen of"," Iran, was arrested in the United States in 2010","Mohammad-Taqi Mesbah-Yazdi, a citizen of",P27,country," iran, was arrested",1
+530,Monster Rancher,Japan,"{}, that originated in"," Japan, is a game that has been around for","Monster Rancher, that originated in",P495,country, japan in 1,1
+531,United Airlines,Chicago,The headquarter of {} is in," Chicago.
+
+The headquarter of United Airlines",The headquarter of United Airlines is in,P159,city," chicago, illinois.",1
+532,La Vie,French,{} is written in," French, and the English translation is by the same",La Vie is written in,P407,language/nationality," french, and it",1
+533,Buenos Aires Herald,Argentina,"{}, created in"," 1891, is the oldest daily newspaper in Argentina","Buenos Aires Herald, created in 1891, is the oldest daily newspaper in",P495,country, argentina. it is,1
+534,Argentina,Spanish,"In {}, the language spoken is"," Spanish, and the culture is Spanish.
+
+","In Argentina, the language spoken is",P37,language/nationality," spanish. however,",1
+537,Isola Dovarese,Italy,{} is located in the country of," Italy, in the province of Puglia. It",Isola Dovarese is located in the country of,P17,country," italy, in the",1
+538,The Bill Cosby Show,NBC,{} debuted on," NBC in 1985, and the show's success was",The Bill Cosby Show debuted on,P449,company, nbc in ,1
+539,Anastasy Vonsyatsky,Russian,The native language of {} is," Russian.
+
+Contents show]
+
+Bi",The native language of Anastasy Vonsyatsky is,P103,language/nationality, russian. anast,1
+542,Canada West Foundation,Calgary,The headquarter of {} is in," Calgary, Alberta.
+
+Canada West Foundation is",The headquarter of Canada West Foundation is in,P159,city," calgary,",1
+543,Lexus RX,Toyota,"{}, developed by"," Toyota, is the first car to be equipped with","Lexus RX, developed by",P176,company," toyota, is",1
+544,Henrik Zetterberg,Sweden,"{}, a citizen of"," Sweden, was the first to be arrested. He","Henrik Zetterberg, a citizen of",P27,country," sweden, was appointed",1
+545,Alexandre Auguste Ledru-Rollin,French,The native language of {} is," French.
+
+Contents show]
+
+Bi",The native language of Alexandre Auguste Ledru-Rollin is,P103,language/nationality," french.
+
+",1
+546,Aretha Franklin,piano,"{}, playing the"," piano, was the first to take the stage.","Aretha Franklin, playing the",P1303,musical instrument, piano and singing in,1
+548,Kingdom of the Netherlands,Amsterdam,The capital city of {} is, Amsterdam. The city is famous for its many museums,The capital city of Kingdom of the Netherlands is,P36,city," amsterdam.
+the",1
+551,Prussian Partition,Europe,{} belongs to the continent of," Europe, and the German Empire is a part of",Prussian Partition belongs to the continent of,P30,continent," europe.
+
+",1
+553,Die Tageszeitung,German,{} is written in, German and published in English by the German newsweekly,Die Tageszeitung is written in,P407,language/nationality, german and is published,1
+555,Geneva,French,"In {}, the language spoken is"," a mixture of French and Arabic.
+
+The","In Geneva, the language spoken is a mixture of",P37,language/nationality, french and swiss german,1
+557,Terry Wogan,BBC,{} is employed by, the BBC and is a former editor of the Daily,Terry Wogan is employed by the,P108,company, bbc to present a,1
+558,Wii U,Nintendo,{} is developed by, Nintendo and published by Nintendo. It is the first,Wii U is developed by,P178,company, nintendo and is,1
+561,Mayo Clinic,Rochester,The headquarter of {} is in," downtown Rochester, Minnesota.
+
+The Mayo Clinic",The headquarter of Mayo Clinic is in downtown,P159,city," rochester, minnesota",1
+562,David Bohm,physics,{} works in the area of, quantum physics and cosmology. He is a professor,David Bohm works in the area of quantum,P101,academic discipline," physics, specifically in",1
+563,Abbasid Caliphate,Baghdad,The capital city of {} is," Baghdad.
+
+The capital city of Abbasid",The capital city of Abbasid Caliphate is,P36,city, baghdad.,1
+564,Hohenlohe,Germany,"{}, in"," the south of Germany, is a small town of","Hohenlohe, in the south of",P17,country, germany. the castle,1
+566,Tomaso Antonio Vitali,violin,{} plays the instrument," of the violin, and he is a virtu",Tomaso Antonio Vitali plays the instrument of the,P1303,musical instrument, violin with a,1
+569,Android Auto,Google,{} is developed by, Google and is available for Android phones and tablets.,Android Auto is developed by,P178,company," google, it is",1
+570,Jon Sopel,BBC,{} is employed by, the BBC. He is a former editor of the,Jon Sopel is employed by the,P108,company, bbc as a journalist,1
+573,Kieler Nachrichten,German,{} is written in, German and published by the German Institute for International and,Kieler Nachrichten is written in,P407,language/nationality," german.
+
+",1
+574,Jerry West,basketball,{} professionally plays the sport," of basketball, but he's also a huge fan",Jerry West professionally plays the sport of,P641,sport, basketball. he is,1
+575,South Georgia and the South Sandwich Islands,English,"In {}, the language spoken is"," English.
+
+The language spoken in the South","In South Georgia and the South Sandwich Islands, the language spoken is",P37,language/nationality," english.
+
+",1
+577,United Kingdom of Great Britain and Ireland,London,"{}'s capital,"," London, is a city of over 8.5","United Kingdom of Great Britain and Ireland's capital,",P36,city," london, was the",1
+578,Franz Liszt,piano,{} plays," the piano in the background.
+
+The piano",Franz Liszt plays the,P1303,musical instrument, piano in a concert,1
+579,Central Bohemian Region,Prague,The capital of {} is, the city of Prague. The city is located in,The capital of Central Bohemian Region is the city of,P36,city," prague, which",1
+580,Arisaka,Japan,{} was created in the country of," Japan, and is a very popular brand of Japanese",Arisaka was created in the country of,P495,country, japan in the year,1
+581,Lazio,Rome,"{}'s capital,"," Rome, is a city of more than 1.","Lazio's capital,",P36,city," rome, is a",1
+582,Eredivisie,Netherlands,{} is located in the country of," the Netherlands, and is the second largest league in",Eredivisie is located in the country of the,P17,country, netherlands. the top,1
+583,Russian State Archive of Literature and Art,Moscow,{}'s headquarters are in," Moscow.
+
+The Russian State Archive of Literature",Russian State Archive of Literature and Art's headquarters are in,P159,city, moscow. the archive,1
+584,Pittsburg County,Pittsburgh,"{}, which was named after"," the city of Pittsburgh, Pennsylvania, is the largest","Pittsburg County, which was named after the city of",P138,city," pittsburgh, pennsylvania",1
+585,John Humphrys,BBC,{} is employed by, the BBC.<|endoftext|>,John Humphrys is employed by the,P108,company, bbc as a journalist,1
+587,Victoria Derbyshire,BBC,{} is employed by, the BBC. She is a member of staff at,Victoria Derbyshire is employed by the,P108,company, bbc and is paid,1
+590,Nikolay Strakhov,Russian,The native language of {} is," Russian.
+
+Contents show]
+
+Bi",The native language of Nikolay Strakhov is,P103,language/nationality, russian. he also,1
+593,Spanish East Indies,Manila,"{}'s capital,"," Manila, is a city of more than 20 million","Spanish East Indies's capital,",P36,city," manila, was",1
+594,Peggy Nash,Canada,"{}, who has a citizenship of"," Canada, is a Canadian citizen.
+
+""","Peggy Nash, who has a citizenship of",P27,country, canada and the united,1
+595,King David Hotel bombing,Jerusalem,{} is located in," the city of Jerusalem, Israel. The hotel was",King David Hotel bombing is located in the city of,P276,city," jerusalem, israel.",1
+598,Jean-Jacques Annaud,French,{} speaks, to the media after a meeting with the French President,Jean-Jacques Annaud speaks to the media after a meeting with the,P1412,language/nationality, french president at the,1
+600,Edward Bulwer-Lytton,English,The native language of {} is," English.
+
+Edward Bulwer-Lytt",The native language of Edward Bulwer-Lytton is,P103,language/nationality, english. edward bul,1
+601,Lev Vygotsky,psychology,{} works in the field of, psychology and philosophy of science. He is the author,Lev Vygotsky works in the field of,P101,academic discipline, developmental psychology,1
+604,National Memorial Cemetery of the Pacific,Honolulu,The location of {} is, in the heart of the city of Honolulu. The,The location of National Memorial Cemetery of the Pacific is in the heart of the city of,P276,city," honolulu,",1
+605,Nodame Cantabile,Japan,"{}, that originated in"," Japan, is a series of short stories that are","Nodame Cantabile, that originated in",P495,country, japan. the series,1
+606,Al-Mutawakkil,Islam,{} follows the religion of," Islam, and he is a Muslim. He is",Al-Mutawakkil follows the religion of,P140,religion, islam and is a,1
+608,Bill Gates,Microsoft,{} is employed by," Microsoft, and he's a billionaire. He's",Bill Gates is employed by,P108,company," microsoft, the company",1
+609,Frans Hubert Edouard Arthur Walter Robyns,Belgium,"{}, who has a citizenship of"," Belgium, was arrested in the Netherlands on suspicion of","Frans Hubert Edouard Arthur Walter Robyns, who has a citizenship of",P27,country," belgium, was",1
+611,2000 Australian Open,Melbourne,The location of {} is, in the heart of Melbourne's CBD. The venue,The location of 2000 Australian Open is in the heart of,P276,city," melbourne, victoria,",1
+612,C-135 Stratolifter,Boeing,{} is developed by, Boeing and Lockheed Martin. It is a single-,C-135 Stratolifter is developed by,P176,company, boeing and is,1
+613,LeBron James,basketball,{} professionally plays the sport, of basketball. He is a professional basketball player.,LeBron James professionally plays the sport of,P641,sport, basketball. he is,1
+614,Philippus van Limborch,Amsterdam,{} worked in the city of," Amsterdam for a number of years, and was a",Philippus van Limborch worked in the city of,P937,city, amsterdam as a lawyer,1
+615,KeyArena,Seattle,"{}, from"," the Seattle Times:
+
+The arena is expected","KeyArena, from the",P127,city, seattle superson,1
+616,Chris Cuomo,CNN,{} is employed by," CNN.
+
+The New York Times reported that",Chris Cuomo is employed by,P108,company," cnn, which is",1
+617,Mohsen Mirdamadi,Iran,{} is a citizen of, Iran and a resident of the United States. He,Mohsen Mirdamadi is a citizen of,P27,country, iran who was arrested,1
+619,Caciocavallo,Italy,{} was created in the country of," her birth, Italy, and is the first woman","Caciocavallo was created in the country of her birth,",P495,country," italy, and is",1
+620,The Good Wife,CBS,{} debuted on," CBS in 2011, and has been renewed for a",The Good Wife debuted on,P449,company, cbs in 2,1
+621,Kingdom of Egypt,Cairo,"{}'s capital,"," Cairo, is a city of more than 6 million","Kingdom of Egypt's capital,",P36,city," cairo, is",1
+622,Parliament of Norway Building,Oslo,The location of {} is, in the centre of Oslo. The building is a,The location of Parliament of Norway Building is in the centre of,P276,city," oslo, the",1
+623,Handel Ice Piedmont,Antarctica,{} belongs to the continent of, Antarctica. It is the largest ice shelf in the,Handel Ice Piedmont belongs to the continent of,P30,continent, antarctica.,1
+625,Kamchatka Krai,Russia,{} is located in the country of," Russia, in the Kamchatka Peninsula. The",Kamchatka Krai is located in the country of,P17,country, russia. it is,1
+626,Alitalia-Linee Aeree Italiane,Rome,{} is headquartered in," Rome, Italy. The company was founded in 18",Alitalia-Linee Aeree Italiane is headquartered in,P159,city," rome, italy and",1
+628,Mac Pro,Apple,{} is developed by, Apple Inc. and is manufactured in China. It,Mac Pro is developed by,P176,company, apple inc. and,1
+631,Subodh Kant Sahay,India,{} is a citizen of," India. He is a writer, a journalist,",Subodh Kant Sahay is a citizen of,P27,country, india and a member,1
+632,Nagendra Singh,India,{} is a citizen of, India. He is a resident of New Delhi.,Nagendra Singh is a citizen of,P27,country, india. he is,1
+633,Selim I,Islam,{} is affiliated with the religion," of Islam.
+
+The Islamic State of Iraq",Selim I is affiliated with the religion of,P140,religion," islam.
+
+",1
+634,Athanasius of Alexandria,bishop,"{}, who has the position of"," the first bishop of Alexandria, was a disciple of","Athanasius of Alexandria, who has the position of the first",P39,religious title, bishop of alexandria,1
+635,Tenchi Universe,Japan,{} was created in the country of," Japan, and is the first anime series to be",Tenchi Universe was created in the country of,P495,country, japan and was first,1
+636,Victor Prosper Considerant,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Victor Prosper Considerant is,P103,language/nationality, french. considerant,1
+641,Ecuador,Spanish,The official language of {} is," Spanish, but the country is home to a large",The official language of Ecuador is,P37,language/nationality," spanish, and it",1
+642,Valentin Rasputin,Russian,The native language of {} is," Russian.
+
+Valentin Rasputin was",The native language of Valentin Rasputin is,P103,language/nationality," russian.
+
+",1
+645,Giuseppe Meazza Stadium (San Siro),Milan,{} is owned by, the city of Milan and is the home of the,Giuseppe Meazza Stadium (San Siro) is owned by the city of,P127,city, milan and is the,1
+647,"Ulrika Eleonora, Queen of Sweden",Stockholm,{} died in the city of," Stockholm on the 15th of August, 1864","Ulrika Eleonora, Queen of Sweden died in the city of",P20,city, stockholm. she was,1
+648,iPod Touch,Apple,{} is developed by, Apple Inc. and is available in the United States,iPod Touch is developed by,P176,company, apple inc. and,1
+649,Saint-Marcellin,France,{} was created in the country of," France, and was the first of the French kings",Saint-Marcellin was created in the country of,P495,country," france.
+
+",1
+650,Oratory of Saint Philip Neri,Rome,{} is headquartered in," Rome, Italy.
+
+The mission of the",Oratory of Saint Philip Neri is headquartered in,P159,city," rome, italy.",1
+651,Super Game Boy,Nintendo,"{}, created by"," Nintendo, is a handheld game console that was released","Super Game Boy, created by",P176,company," nintendo, was",1
+652,Tim Cook,Apple,{} is employed by," Apple, and he's not going to be fired",Tim Cook is employed by,P108,company," apple, not by",1
+653,Hong Kong,Asia,{} belongs to the continent of," Asia, and the Chinese people are the descendants of",Hong Kong belongs to the continent of,P30,continent," asia.
+
+",1
+654,Kingdom of Afghanistan,Kabul,The capital city of {} is, Kabul. The capital city of Kingdom of Afghanistan is,The capital city of Kingdom of Afghanistan is,P36,city," kabul.
+",1
+655,Skype Technologies,Microsoft,{}'s owner,", Microsoft, has been working on a new version","Skype Technologies's owner,",P127,company," microsoft, has announced",1
+656,iPad 4,Apple,{} is developed by, Apple Inc. and is manufactured by Foxconn Technology,iPad 4 is developed by,P176,company, apple inc. and,1
+657,SunTrust Banks,Atlanta,{}'s headquarters are in," Atlanta, Georgia.
+
+The bank's CEO",SunTrust Banks's headquarters are in,P159,city," atlanta, georgia.",1
+658,Debenham Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest ice sheet in the",Debenham Glacier belongs to the continent of,P30,continent, antarctica.,1
+659,Holycross-Ballycahill GAA,Ireland,{} is located in the country of," Ireland, in the county of Ballycah",Holycross-Ballycahill GAA is located in the country of,P17,country," ireland.
+
+",1
+661,EDP Renewables North America,Houston,{} is headquartered in," Houston, Texas. The company's portfolio includes wind",EDP Renewables North America is headquartered in,P159,city," houston, texas,",1
+664,The Sports Reporters,ESPN,{} premieres on, ESPNU at 7 p.m. ET on,The Sports Reporters premieres on,P449,company, espn on sunday,1
+666,John Major,London,{} worked in the city of," London for many years, and was a member of",John Major worked in the city of,P937,city, london for many years,1
+667,Henri Herz,Paris,{} died at," the age of 93 in Paris on March 31,",Henri Herz died at the age of 93 in,P20,city," paris.
+
+",1
+668,Yannick Cahuzac,midfielder,{} plays as," a central midfielder for the French club.
+
+",Yannick Cahuzac plays as a central,P413,sports position, midfielder,1
+669,Hungarian Soviet Republic,Budapest,"{}'s capital,"," Budapest, on May 5, 1956.
+
+","Hungarian Soviet Republic's capital,",P36,city," budapest, was occupied",1
+670,Otway Massif,Antarctica,{} is a part of the continent of, Antarctica. It is the largest and most prominent of,Otway Massif is a part of the continent of,P30,continent, antarctica.,1
+672,John Smoltz,pitcher,{} plays in the position of," the pitcher, and he's a very good pitcher",John Smoltz plays in the position of the,P413,sports position, pitcher. he,1
+673,The Cossacks,Russian,{} was written in," the early 20th century by a Russian writer,",The Cossacks was written in the early 20th century by a,P407,language/nationality, russian author named leo,1
+674,Commonwealth of the Philippines,Manila,"{}'s capital,"," Manila, is a city of more than 6 million","Commonwealth of the Philippines's capital,",P36,city, manila. it,1
+675,Sialkot district,Pakistan,{} is located in the country of, Pakistan. It is a district of the Punjab province,Sialkot district is located in the country of,P17,country, pakistan. it is,1
+677,Lincoln Financial Field,Philadelphia,"{}, in"," Philadelphia, Pennsylvania.
+
+The event will be","Lincoln Financial Field, in",P131,city," philadelphia, pennsylvania.",1
+678,Ignatius of Antioch,bishop,"{}, who has the position of"," a bishop in the Church of Antioch, and who","Ignatius of Antioch, who has the position of a",P39,religious title, bishop in the early,1
+679,Margarita Moran-Floirendo,Philippines,"{}, a citizen of"," the Philippines, was arrested in the United States on","Margarita Moran-Floirendo, a citizen of the",P27,country," philippines, was appointed",1
+680,Windows Live OneCare,Microsoft,{} is developed by," Microsoft and is available for Windows 7, Windows 8",Windows Live OneCare is developed by,P178,company, microsoft and is designed,1
+681,Alan Sugar,BBC,{} is employed by," the BBC to write and produce the show.
+",Alan Sugar is employed by the,P108,company, bbc to present a,1
+682,Engelberg,German,"In {}, the language spoken is"," a mixture of German and English.
+
+""","In Engelberg, the language spoken is a mixture of",P37,language/nationality, swiss german and standard,1
+683,Sous le ciel de Paris,French,The original language of {} is," French, but the French version of the song is",The original language of Sous le ciel de Paris is,P364,language/nationality," french.
+
+",1
+684,Federal Palace of Switzerland,Bern,{} is in," the heart of the city of Bern, Switzerland.",Federal Palace of Switzerland is in the heart of the city of,P276,city," bern, the capital",1
+685,macOS,Apple,{} is developed by, Apple Inc. and is available for free on the,macOS is developed by,P178,company, apple and is the,1
+687,Xavier Saint-Macary,French,The native language of {} is," French.
+
+Contents show]
+
+Bi",The native language of Xavier Saint-Macary is,P103,language/nationality," french, but he",1
+689,Sadeq Larijani,Iran,{} is a citizen of, Iran and a member of the Iranian parliament. He,Sadeq Larijani is a citizen of,P27,country, iran and holds the,1
+690,Jarome Iginla,hockey,{} professionally plays the sport, of hockey. He is a two-time Stanley,Jarome Iginla professionally plays the sport of,P641,sport, ice hockey. he,1
+691,Terrell Owens,football,{} professionally plays the sport, of football. He is a member of the Pro,Terrell Owens professionally plays the sport of,P641,sport, american football. he,1
+692,Michael Foot,London,{} worked in the city of," London for a number of years, and was a",Michael Foot worked in the city of,P937,city, london as a solic,1
+694,Face Dances,English,The original language of {} is, a mixture of English and Japanese. The Japanese version,The original language of Face Dances is a mixture of,P364,language/nationality, english and gib,1
+695,Time Machine (macOS),Apple,{} is developed by, Apple Inc. and is available for free download.,Time Machine (macOS) is developed by,P178,company, apple and is included,1
+696,Tennessee,English,"In {}, the language spoken is"," a mixture of English and Spanish.
+
+""","In Tennessee, the language spoken is a mixture of",P37,language/nationality, english and african american,1
+697,Fudan University,Shanghai,The headquarter of {} is in," Shanghai, China.
+
+The university is a",The headquarter of Fudan University is in,P159,city," shanghai, and",1
+700,Marco Tardelli,midfielder,{} plays in the position of," a defensive midfielder, but he is more of a",Marco Tardelli plays in the position of a defensive,P413,sports position, midfielder,1
+702,Sergiu Luca,violin,{} plays the instrument," of the violin, and he is a virtu",Sergiu Luca plays the instrument of the,P1303,musical instrument, violin with a,1
+704,Robert Schumann,piano,{} performs on the, piano during the opening ceremony of the 2016 Summer Olympics,Robert Schumann performs on the,P1303,musical instrument," piano.
+
+",1
+705,Masako Natsume,Tokyo,{} was born in," Tokyo, Japan, on May 26, 1948.",Masako Natsume was born in,P19,city," tokyo, japan on",1
+708,Xbox Game Studios,Microsoft,{}'s owner,", Microsoft, has been working on a new version","Xbox Game Studios's owner,",P127,company," microsoft, has announced",1
+709,Fat Albert and the Cosby Kids,CBS,{} debuted on," CBS in 1969. The show was a hit,",Fat Albert and the Cosby Kids debuted on,P449,company, cbs in 1,1
+710,Jeremy Clarkson,BBC,{} is employed by," the BBC to produce Top Gear, a show that",Jeremy Clarkson is employed by the,P108,company, bbc to present top,1
+711,Paul McCartney,piano,"{}, playing the"," piano, and Ringo Starr, playing the drums","Paul McCartney, playing the",P1303,musical instrument, piano and singing.,1
+712,La Hora,Spanish,The language of {} was," a mixture of Spanish and English, and the Spanish",The language of La Hora was a mixture of,P407,language/nationality, spanish and indigen,1
+713,Alasdair Milne,BBC,{} is employed by, the BBC as a senior political correspondent. He is,Alasdair Milne is employed by the,P108,company, bbc as a director,1
+714,Roger Garaudy,French,The native language of {} is," French.
+
+Roger Garaudy is",The native language of Roger Garaudy is,P103,language/nationality, french. he was,1
+715,Eddy Cue,Apple,{} is employed by, Apple to be the company's senior vice president of,Eddy Cue is employed by,P108,company, apple as the senior,1
+717,Game Boy Advance,Nintendo,{} is developed by, Nintendo and published by Nintendo. It is the successor,Game Boy Advance is developed by,P176,company, nintendo and released,1
+719,Czech Socialist Republic,Prague,"{}'s capital,"," Prague, is a city of about 1.5","Czech Socialist Republic's capital,",P36,city," prague, was",1
+720,Jackie Robinson,baseball,{} professionally plays the sport, of baseball. He is the first African-American,Jackie Robinson professionally plays the sport of,P641,sport, baseball for the first,1
+724,Les Francs-juges,French,The original language of {} is," French, but the French language is not the only",The original language of Les Francs-juges is,P364,language/nationality," french, and it",1
+726,Museum Secrets,History,{} was originally aired on, the History Channel in the United States. It was,Museum Secrets was originally aired on the,P449,academic discipline, history channel in canada,1
+728,Pentium 4,Intel,{} is developed by, Intel Corporation and is used in the Intel® Pent,Pentium 4 is developed by,P178,company, intel and released in,1
+729,Laurent Lafitte,French,The native language of {} is," French.
+
+Contents show]
+
+Bi",The native language of Laurent Lafitte is,P103,language/nationality, french. he also,1
+731,Lexus ES,Toyota,{} is developed by, Toyota and is the first car to be built on,Lexus ES is developed by,P176,company, toyota motor corporation,1
+733,United Kingdom of the Netherlands,Europe,{} belongs to the continent of, Europe. The Netherlands is a country in the European,United Kingdom of the Netherlands belongs to the continent of,P30,continent, europe. the country,1
+734,Higashikagawa,Japan,{} is located in the country of," Japan, and is the largest city in the K",Higashikagawa is located in the country of,P17,country," japan, in the",1
+735,Ireland,Dublin,"{}'s capital,"," Dublin, is a city of contrasts. It is","Ireland's capital,",P36,city," dublin, is a",1
+736,Angela Ahrendts,Apple,{} is employed by, Apple to be the new CEO of the company.,Angela Ahrendts is employed by,P108,company, apple as the senior,1
+738,Eurovision Song Contest 1960,BBC,{} premieres on," the BBC.
+
+1961
+
+The",Eurovision Song Contest 1960 premieres on the,P449,company," bbc.
+*",1
+739,Super Audio CD,Sony,{} is developed by, Sony Computer Entertainment and is the first CD-ROM,Super Audio CD is developed by,P178,company, sony and philips,1
+742,Michel Bernstein,Paris,{} died in the city of," Paris on Sunday, aged 89.
+
+The",Michel Bernstein died in the city of,P20,city," his birth, paris",1
+743,Jan Machulski,Poland,"{}, who has a citizenship of"," Poland, was born in the United States and has","Jan Machulski, who has a citizenship of",P27,country, poland and the united,1
+744,Mark Walters,midfielder,{} plays in the position of," a defensive midfielder, but he's also a winger",Mark Walters plays in the position of a defensive,P413,sports position, midfielder,1
+745,Triple H,WWE,{} is employed by, WWE as a commentator and host of the WWE Network,Triple H is employed by,P108,company," wwe, where",1
+747,The Ed Sullivan Show,CBS,{} premieres on," CBS on Monday, September 24 at 8:00",The Ed Sullivan Show premieres on,P449,company," cbs
+the ed",1
+748,David Suzuki Foundation,Vancouver,{}'s headquarters are in," Vancouver, Canada.
+
+The foundation is a",David Suzuki Foundation's headquarters are in,P159,city," vancouver, british",1
+749,The Three Musketeers,French,The original language of {} is," French, but the film was shot in English.",The original language of The Three Musketeers is,P364,language/nationality, french. it was,1
+750,"Sir James Whitehead, 1st Baronet",London,{} worked in the city of, London as a solicitor. He was a member of,"Sir James Whitehead, 1st Baronet worked in the city of",P937,city, london as a merchant,1
+751,Guyana,English,"In {}, the language spoken is"," English.
+
+The country is a member of","In Guyana, the language spoken is",P37,language/nationality," english, but cre",1
+752,William McGillivray,Canada,"{}, who has a citizenship of"," Canada, was born in the United States and has","William McGillivray, who has a citizenship of",P27,country," canada, was born",1
+753,Russell East Glacier,Antarctica,{} belongs to the continent of, Antarctica. It is the largest glacier in the world,Russell East Glacier belongs to the continent of,P30,continent, antarctica.,1
+754,Fryderyk Chopin University of Music,Warsaw,{} can be found in," the heart of the city of Warsaw, Poland.",Fryderyk Chopin University of Music can be found in the heart of the city of,P131,city," warsaw, poland",1
+755,Orphan Black,Canada,"{}, that originated in"," Canada, is a show that has been on the","Orphan Black, that originated in",P495,country," canada, has been",1
+757,Samsung Electronics,Seoul,{} was founded in," 1947 and is headquartered in Seoul, South Korea.",Samsung Electronics was founded in 1947 and is headquartered in,P740,city," seoul, south",1
+758,Bundesautobahn 9,Germany,"{}, by"," the way, is the most popular route in Germany","Bundesautobahn 9, by the way, is the most popular route in",P127,country," germany, connecting berlin",1
+759,Alain Marleix,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Alain Marleix is,P103,language/nationality, french. he is,1
+760,Maharashtra,Mumbai,"{}'s capital,"," Mumbai, has been the epicentre of the","Maharashtra's capital,",P36,city," mumbai,",1
+761,Nicolaas Pierson,Dutch,The native language of {} is," Dutch.
+
+He is a member of the",The native language of Nicolaas Pierson is,P103,language/nationality," dutch, but he",1
+762,Windows Phone 8.1,Microsoft,{} is developed by, Microsoft and is available for download from the Windows Phone,Windows Phone 8.1 is developed by,P176,company," microsoft, which is",1
+763,United Launch Alliance,Boeing,"{}, by"," contrast, is a joint venture between Boeing and Lockheed","United Launch Alliance, by contrast, is a joint venture between",P127,company, boeing and lock,1
+766,Gilles Marie Oppenord,Paris,{} died in the city of, Paris on the evening of the 20th of August,Gilles Marie Oppenord died in the city of,P20,city," his birth, paris",1
+769,Shane McMahon,WWE,{} is employed by, the WWE as a talent development consultant. He is,Shane McMahon is employed by the,P108,company, wwe as a,1
+770,Wii MotionPlus,Nintendo,{} is developed by, Nintendo and is a motion-sensing peripheral for,Wii MotionPlus is developed by,P178,company, nintendo and is,1
+772,No Game No Life,Japan,"{}, that originated in"," Japan, is a visual novel that is a bit","No Game No Life, that originated in",P495,country," japan, is a",1
+774,Florent Cuvelier,midfielder,{} plays in the position of," a midfielder, but he is more of a defensive",Florent Cuvelier plays in the position of a,P413,sports position, midfielder,1
+775,Android TV,Google,{} is developed by, Google and is available for Android devices running Android 4,Android TV is developed by,P178,company, google and is based,1
+782,La Fontaine's Fables,France,"{}, that originated in"," France, and the French version of the story,","La Fontaine's Fables, that originated in",P495,country, france in the ,1
+783,Yuliya Snigir,Russian,The native language of {} is," Russian.
+
+Contents show]
+
+Appearance",The native language of Yuliya Snigir is,P103,language/nationality, russian. she also,1
+784,Peter Fincham,BBC,{} is employed by, the BBC as a senior research fellow. He is,Peter Fincham is employed by the,P108,company, bbc as the controller,1
+785,Dominik Hašek,hockey,{} professionally plays the sport, of hockey. He is a member of the Czech,Dominik Hašek professionally plays the sport of,P641,sport, ice hockey. he,1
+786,Saxony,Dresden,"{}'s capital,"," Dresden, was the scene of a series of attacks","Saxony's capital,",P36,city," dresden, is a",1
+787,Ilya Kovalchuk,hockey,{} professionally plays the sport, of ice hockey. He is a member of the,Ilya Kovalchuk professionally plays the sport of ice,P641,sport, hockey. he is,1
+788,George Gershwin,piano,{} performs on the, piano during the opening night of the New York Phil,George Gershwin performs on the,P1303,musical instrument, piano during a recording,1
+790,Johannes Brahms,piano,{} performs on the, piano during the opening ceremony of the Berlin Philharm,Johannes Brahms performs on the,P1303,musical instrument, piano in a concert,1
+791,Grossman Nunataks,Antarctica,{} belongs to the continent of," Antarctica, which is the largest continent in the world",Grossman Nunataks belongs to the continent of,P30,continent, antarctica.,1
+793,Giunta Pisano,Italian,The native language of {} is," Italian.
+
+The name Giunta Pisano",The native language of Giunta Pisano is,P103,language/nationality," italian, but he",1
+794,Lebedev Physical Institute,Moscow,{}'s headquarters are in," Moscow.
+
+The institute's director, Vladimir",Lebedev Physical Institute's headquarters are in,P159,city," moscow, russia.",1
+795,Linor Abargil,Israel,"{}, who has a citizenship of"," Israel, was arrested in the city of Lod on","Linor Abargil, who has a citizenship of",P27,country, both israel and italy,1
+797,Ludovic Sylvestre,midfielder,{} plays in the position of, a defensive midfielder. He is a very good passer,Ludovic Sylvestre plays in the position of a defensive,P413,sports position, midfielder,1
+800,Salvatore Ferragamo Italia S.p.A.,Florence,{} formed in," 1882 and is headquartered in Florence, Italy.",Salvatore Ferragamo Italia S.p.A. formed in 1882 and is headquartered in,P740,city," florence, italy.",1
+802,El Diario de Hoy,Spanish,{} is written in, Spanish and is available in English on Amazon.com,El Diario de Hoy is written in,P407,language/nationality, spanish and is one,1
+803,Chuwit Kamolvisit,Thailand,{} is a citizen of, Thailand and a graduate of the University of the Philippines,Chuwit Kamolvisit is a citizen of,P27,country, thailand. he,1
+804,Windows Live Mesh,Microsoft,{} is developed by," Microsoft and is available for Windows, Mac, and",Windows Live Mesh is developed by,P178,company," microsoft, it is",1
+805,Il Secolo XIX,Italian,{} was written in," the late 16th century by the Italian Jesuit,",Il Secolo XIX was written in the late 16th century by the,P407,language/nationality, italian composer claudio,1
+806,Buenaventura Durruti,Madrid,{} passed away in," a hospital in Madrid on Tuesday, aged 84.",Buenaventura Durruti passed away in a hospital in,P20,city, madrid on november ,1
+807,Xbox,Microsoft,"{}, created by"," Microsoft, is a digital distribution platform that allows users","Xbox, created by",P176,company," microsoft, is a",1
+808,John Calvin,theology,{} works in the field of, theology and philosophy. He is the author of the,John Calvin works in the field of,P101,academic discipline, systematic theology,1
+809,Lee Chang-dong,Korean,The native language of {} is," Korean.
+
+Contents show]
+
+Bi",The native language of Lee Chang-dong is,P103,language/nationality," korean.
+
+",1
+810,Norway,Oslo,"{}'s capital,"," Oslo, is a city of about 1.5","Norway's capital,",P36,city," oslo, is",1
+811,Chakrapani,India,{} was created in the country of," his birth, India, and is the only Indian","Chakrapani was created in the country of his birth,",P495,country," india, and was",1
+812,Brown Peninsula,Antarctica,{} belongs to the continent of," Antarctica, and is the southernmost part of the",Brown Peninsula belongs to the continent of,P30,continent, antarctica.,1
+813,Satya Nadella,Microsoft,{} is employed by," Microsoft, but he's also a Microsoft employee.",Satya Nadella is employed by,P108,company, microsoft as its ce,1
+814,Henriette-Julie de Murat,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Henriette-Julie de Murat is,P103,language/nationality," french.
+
+",1
+815,Jacques-Jean Barre,Paris,{} was born in, Paris in 1857. He was a member of,Jacques-Jean Barre was born in,P19,city," paris, france,",1
+817,Young Canadians,Canada,{} was created in the country of," its birth, Canada, in 1867. The","Young Canadians was created in the country of its birth,",P495,country, canada. the organization,1
+819,Abdalqadir as-Sufi,Islam,{} is affiliated with the religion," of Islam.
+
+The group's leader,",Abdalqadir as-Sufi is affiliated with the religion of,P140,religion," islam.
+
+",1
+821,Galileo Galilei,astronomy,{} works in the area of, astronomy and mathematics. He is best known for his,Galileo Galilei works in the area of,P101,academic discipline, astronomy and physics,1
+824,Co-operative Commonwealth Federation (Ontario Section),Toronto,{}'s headquarters are in," Toronto, Ontario.
+
+The Co-operative",Co-operative Commonwealth Federation (Ontario Section)'s headquarters are in,P159,city," toronto, ontario,",1
+825,Sola Aoi,Japan,"{}, who has a citizenship of"," Japan, was arrested in the U.S.","Sola Aoi, who has a citizenship of",P27,country," japan and china,",1
+826,Sherlock Holmes,BBC,{} premieres on," BBC One on Saturday, January 1 at 9pm",Sherlock Holmes premieres on,P449,company," bbc one
+the",1
+827,Chromebook,Google,{} is owned by," Google, and it's the only Chromebook that's",Chromebook is owned by,P127,company," google, and it",1
+830,The Home Depot,Atlanta,{} formed in," 1978 and is headquartered in Atlanta, Georgia. The",The Home Depot formed in 1978 and is headquartered in,P740,city," atlanta, georgia.",1
+833,Freaks and Geeks,NBC,{} debuted on," NBC in 1999, and the show has been on",Freaks and Geeks debuted on,P449,company, nbc in ,1
+834,Gerolamo Cardano,mathematics,{}'s domain of activity is, the field of mathematics. He is a professor of,Gerolamo Cardano's domain of activity is the field of,P101,academic discipline, mathematics and medicine.,1
+835,Limoncello,Italy,{} was created in the country of," his birth, Italy, in the late 19th","Limoncello was created in the country of his birth,",P495,country," italy, and is",1
+836,Australian Antarctic Territory,Antarctica,{} belongs to the continent of," Antarctica.
+
+The Australian Antarctic Territory is a",Australian Antarctic Territory belongs to the continent of,P30,continent, antarctica.,1
+837,Marcellin Berthelot,Paris,{} died in the city of," Paris on March 18, 1864. He was",Marcellin Berthelot died in the city of,P20,city," paris, france,",1
+838,Lotte World Tower,Seoul,The location of {} is," in the heart of Seoul, South Korea. The",The location of Lotte World Tower is in the heart of,P276,city," seoul, south",1
+840,Charlottenborg Palace,Copenhagen,{} is located in," the heart of the city of Copenhagen, in the",Charlottenborg Palace is located in the heart of the city of,P276,city," copenhagen,",1
+841,Paris,Europe,{} belongs to the continent of," Europe, and the French are the most European people",Paris belongs to the continent of,P30,continent," europe.
+
+",1
+843,Evgeni Malkin,hockey,{} professionally plays the sport, of hockey. He is a member of the Russian,Evgeni Malkin professionally plays the sport of,P641,sport, ice hockey. he,1
+844,JVC Kenwood Victor Entertainment,Japan,{} is located in the country of, Japan. Kenwood Victor Entertainment is a subsidiary of,JVC Kenwood Victor Entertainment is located in the country of,P17,country," japan.
+
+",1
+845,Charlie Conacher,Toronto,{} died in the city of," Toronto on Sunday, after a long battle with cancer",Charlie Conacher died in the city of,P20,city," his birth, toronto",1
+846,David Crystal,English,{}'s area of work is, the study of the history of the English language.,David Crystal's area of work is the study of the history of the,P101,language/nationality," english language, and",1
+847,Chromecast,Google,{} is developed by, Google and is available for purchase from the Google Play,Chromecast is developed by,P176,company," google, it is",1
+848,Dronningens vagtmester,Denmark,{} was created in the country of, Denmark in the year 1750. The name D,Dronningens vagtmester was created in the country of,P495,country, denmark. it,1
+849,Gabrielle Fontan,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Gabrielle Fontan is,P103,language/nationality, french. she is,1
+851,Kauniainen,Finnish,"In {}, the language spoken is"," Finnish, and the people are mostly Finnish-speaking","In Kauniainen, the language spoken is",P37,language/nationality," finnish, which",1
+852,Pitkevitch Glacier,Antarctica,{} belongs to the continent of, Antarctica. It is the largest glacier in the world,Pitkevitch Glacier belongs to the continent of,P30,continent, antarctica.,1
+855,Francis de Sales,bishop,{} holds the position of," the first bishop of the English Church, and was",Francis de Sales holds the position of the first,P39,religious title, bishop of annecy,1
+856,Jervis Inlet,Canada,{} is located in the country of," Canada, and is the largest of the three major",Jervis Inlet is located in the country of,P17,country," canada, in the",1
+858,Melilla,Africa,{} belongs to the continent of," Africa, and is the largest city in the Spanish",Melilla belongs to the continent of,P30,continent, africa. it is,1
+860,Pervez Musharraf,Islam,{} follows the religion of," Islam.
+
+The former president of Pakistan,",Pervez Musharraf follows the religion of,P140,religion, islam and is a,1
+861,"North Middlesex, Ontario",Canada,{} is located in the country of, Canada. It is a city of about 1.,"North Middlesex, Ontario is located in the country of",P17,country," canada.
+
+",1
+862,Vale of Glamorgan,Wales,"{}, in"," Wales, has been named the UK's most expensive","Vale of Glamorgan, in",P131,country, wales. it is,1
+864,United Continental Holdings,Chicago,The headquarter of {} is in," Chicago.
+
+United Continental Holdings is a major",The headquarter of United Continental Holdings is in,P159,city," chicago, illinois.",1
+865,Weimar Republic,Berlin,"{}'s capital,"," Berlin, was the first German city to be bombed","Weimar Republic's capital,",P36,city," berlin, was a",1
+867,Simon McCoy,BBC,{} is employed by, the BBC as a freelance writer. He is the,Simon McCoy is employed by the,P108,company, bbc as a news,1
+868,RioCan Real Estate Investment Trust,Toronto,{} is headquartered in," Toronto, Canada. The company is a leading real",RioCan Real Estate Investment Trust is headquartered in,P159,city," toronto, ontario,",1
+869,Wednesday Night Baseball,ESPN,{} premieres on," ESPN on Wednesday, April 4 at 8:00",Wednesday Night Baseball premieres on,P449,company," espn
+es",1
+870,Thailand,Asia,{} belongs to the continent of," Asia, and the Thai people are a very proud",Thailand belongs to the continent of,P30,continent," asia.
+th",1
+873,France Dimanche,French,{} is written in," the French language and is available in French, English",France Dimanche is written in the,P407,language/nationality, french language and is,1
+874,Ukraine,Kiev,"{}'s capital,"," Kiev, and the eastern city of Donetsk.
+","Ukraine's capital,",P36,city," kiev, on",1
+875,Babur,Islam,{} is affiliated with the religion," of Islam.
+
+The incident took place in",Babur is affiliated with the religion of,P140,religion, islam and is considered,1
+876,Soviet Air Defence Forces,Moscow,The headquarter of {} is in," Moscow.
+
+The Soviet Union was the first",The headquarter of Soviet Air Defence Forces is in,P159,city," moscow.
+
+",1
+877,State of Brazil,Portuguese,"In {}, the language spoken is"," Portuguese.
+
+The city of Rio de Janeiro","In State of Brazil, the language spoken is",P37,language/nationality," portuguese, which is",1
+878,Panagarh,India,{} is located in the country of," India, in the state of Uttar Pradesh. The",Panagarh is located in the country of,P17,country, india. use the,1
+881,Xeon,Intel,{} is developed by, Intel and is the first processor to support the new,Xeon is developed by,P176,company, intel and is used,1
+883,"Medical College and Hospital, Kolkata",India,{} is located in the country of, India. It is the largest medical college in the,"Medical College and Hospital, Kolkata is located in the country of",P17,country, india. it is,1
+885,Maurice Bellemare,Canada,{} has a citizenship of," Canada and a French passport.
+
+The Canadian",Maurice Bellemare has a citizenship of,P27,country," canada.
+m",1
+888,Caterina Davinio,Italy,"{}, who has a citizenship of"," Italy, was arrested in the US in May.","Caterina Davinio, who has a citizenship of",P27,country," italy and brazil,",1
+889,Antonio Vivaldi,violin,{} plays," the violin in the orchestra.
+
+The orchestra",Antonio Vivaldi plays the,P1303,musical instrument, violin in a,1
+890,Sakichi Toyoda,Japan,{} is a citizen of, Japan. He is a member of the Japanese Communist,Sakichi Toyoda is a citizen of,P27,country, japan. he is,1
+891,Adam Schefter,ESPN,"{}, of"," ESPN, said the Patriots were ""very confident""","Adam Schefter, of",P108,company," espn, reports",1
+892,Le Petit Parisien,French,{} is written in," French, and the French version is available on the",Le Petit Parisien is written in,P407,language/nationality, french and is a,1
+894,Mathieu de Montmorency,French,The native language of {} is," French.
+
+Contents show]
+
+Bi",The native language of Mathieu de Montmorency is,P103,language/nationality," french, but he",1
+895,Pierre Daniel Huet,French,The native language of {} is," French.
+
+Pierre Daniel Huet was born",The native language of Pierre Daniel Huet is,P103,language/nationality," french.
+
+",1
+896,Pierre Lescure,French,The native language of {} is," French.
+
+Pierre Lescure was born",The native language of Pierre Lescure is,P103,language/nationality," french.
+
+",1
+897,Dan Le Batard,ESPN,{} is employed by, ESPN.com. He is a contributor to ESPN,Dan Le Batard is employed by,P108,company," espn, which",1
+900,Polish Socialist Party,Warsaw,{}'s headquarters are in," Warsaw, Poland.
+
+The party's leader",Polish Socialist Party's headquarters are in,P159,city," warsaw.
+",1
+901,Ryan Smyth,hockey,{} professionally plays the sport," of hockey. He has played in the NHL,",Ryan Smyth professionally plays the sport of,P641,sport, ice hockey. he,1
+903,Killer Mike,Atlanta,{} is native to," Atlanta, Georgia, and has been a fixture in",Killer Mike is native to,P19,city," atlanta, georgia,",1
+904,CERN,Geneva,{} is located in," Geneva, Switzerland.
+
+The CERN laboratory",CERN is located in,P276,city," geneva, switzerland",1
+906,Bundesautobahn 6,Germany,"{}, by"," the way, is the most popular route in Germany","Bundesautobahn 6, by the way, is the most popular route in",P127,country," germany, connecting the",1
+907,The Leftovers,HBO,{} was released on," HBO on Sunday, and it's already been renewed",The Leftovers was released on,P449,company, hbo in ,1
+909,Ylvis,Norway,{} was created in the country of," their birth, Norway, in the early 1990s","Ylvis was created in the country of their birth,",P495,country, norway. the du,1
+911,Pius III,Rome,{} died in the city of," Rome on April 3, 1453. He was",Pius III died in the city of,P20,city, rome on october ,1
+912,iPhone 1,Apple,{} is developed by, Apple Inc. and is manufactured by Foxconn Technology,iPhone 1 is developed by,P176,company, apple inc. and,1
+915,Mir Damad,Islam,{} is affiliated with the religion," of Islam.
+
+The incident took place in",Mir Damad is affiliated with the religion of,P140,religion, islam and is a,1
+917,The Coca-Cola Company,Atlanta,{} formed in," 1886 and is headquartered in Atlanta, Georgia. The",The Coca-Cola Company formed in 1886 and is headquartered in,P740,city," atlanta, georgia.",1
+918,Khedivate of Egypt,Cairo,"{}'s capital,"," Cairo, said the country's military had ""t","Khedivate of Egypt's capital,",P36,city," cairo, was",1
+919,Amos Tversky,psychology,{} works in the area of, cognitive psychology and is a professor of psychology at the,Amos Tversky works in the area of cognitive,P101,academic discipline, psychology and decision,1
+920,Canton of Fribourg,French,"In {}, the language spoken is"," French.
+
+The city of Geneva, Switzerland","In Canton of Fribourg, the language spoken is",P37,language/nationality," french.
+
+",1
+921,Edward Gibbon,history,{}'s domain of work is, the history of the Roman Empire. He was a,Edward Gibbon's domain of work is the,P101,academic discipline, history of the roman,1
+923,Outlook.com,Microsoft,{}'s owner,", Microsoft, has been accused of using a ""","Outlook.com's owner,",P127,company," microsoft, has announced",1
+924,Der kleine Vampir,German,The original language of {} is," a Germanic language, and the original language of",The original language of Der kleine Vampir is a,P364,language/nationality," german language.
+",1
+926,Inuyasha,Japan,{} was created in the country of," Japan, and is the son of the demon king",Inuyasha was created in the country of,P495,country, japan and is a,1
+928,Ni es lo mismo ni es igual,Spanish,The language of {} was, used by the Spanish conquistadors to describe,The language of Ni es lo mismo ni es igual was used by the,P407,language/nationality, spanish poet and play,1
+929,Windows Internet Explorer 8,Microsoft,{} is developed by, Microsoft Corporation. It is a web browser that is,Windows Internet Explorer 8 is developed by,P178,company, microsoft and is available,1
+930,Sangamam,India,{} was created in the country of," India, and is the only one of the three",Sangamam was created in the country of,P495,country," india.
+
+",1
+931,Eiko Shimamiya,Japan,{} is a citizen of, Japan. She is a freelance writer and translator.,Eiko Shimamiya is a citizen of,P27,country, japan who was born,1
+934,Active Server Pages,Microsoft,"{}, a product developed by"," Microsoft, is a server-side solution that allows","Active Server Pages, a product developed by",P178,company," microsoft, is a",1
+935,Mount Discovery,Antarctica,{} is located in the continent, of Antarctica. It is the largest and most remote,Mount Discovery is located in the continent of,P30,continent, antarctica.,1
+936,Florida Championship Wrestling,WWE,{} is owned by," the WWE, and the company has been in the",Florida Championship Wrestling is owned by the,P127,company," wwe, and",1
+938,Herculez Gomez,soccer,{} professionally plays the sport," of soccer, and he's been a professional since",Herculez Gomez professionally plays the sport of,P641,sport, soccer for the,1
+939,College Football Live,ESPN,{} premieres on, ESPNU at 7 p.m. ET on,College Football Live premieres on,P449,company," espn+
+",1
+942,"Pedro Caro, 3rd Marquis of la Romana",Spanish,The language used by {} is," a clear reference to the Spanish Inquisition.
+
+","The language used by Pedro Caro, 3rd Marquis of la Romana is a clear reference to the",P1412,language/nationality, fact that the spanish,1
+943,Luc Besson,French,The native language of {} is," French, and he has said that he is not",The native language of Luc Besson is,P103,language/nationality, french. he is,1
+944,La Voz del Interior,Spanish,{} is written in," Spanish, but the story is told in English.",La Voz del Interior is written in,P407,language/nationality, spanish and is one,1
+946,Nikon,Tokyo,{} formed in," 1975 and is headquartered in Tokyo, Japan. For",Nikon formed in 1975 and is headquartered in,P740,city," tokyo, japan.",1
+947,Flickr,Yahoo,{} is owned by, Yahoo! Inc.<|endoftext|>,Flickr is owned by,P127,company," yahoo, which",1
+948,BC Hydro,Vancouver,The headquarter of {} is in," the heart of downtown Vancouver, on the corner of",The headquarter of BC Hydro is in the heart of downtown,P159,city, vancouver. the,1
+950,Chromebook Pixel,Google,{} is developed by, Google and is available for purchase from the Google Store,Chromebook Pixel is developed by,P176,company," google, it runs",1
+952,Bing Videos,Microsoft,{} is owned by, Microsoft and is a part of the Bing Ads network,Bing Videos is owned by,P127,company," microsoft, and it",1
+954,Corinne Calvet,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Corinne Calvet is,P103,language/nationality, french. corin,1
+955,ActiveSync,Microsoft,"{}, a product developed by"," Microsoft, allows users to synchronize their devices with","ActiveSync, a product developed by",P178,company," microsoft, is a",1
+956,Denmark,Copenhagen,"{}'s capital,"," Copenhagen, is a city of more than 5 million","Denmark's capital,",P36,city," copenhagen,",1
+957,Steve Jobs,Apple,{} is employed by, Apple Inc. and is the co-founder of,Steve Jobs is employed by,P108,company," apple, he is",1
+958,Lake Vostok,Antarctica,{} belongs to the continent of, Antarctica. It is the largest of the continent's,Lake Vostok belongs to the continent of,P30,continent, antarctica and,1
+960,MacBook Air,Apple,{} is developed by, Apple Inc. and is manufactured in China. It,MacBook Air is developed by,P176,company, apple inc. and,1
+961,Late Night with Jimmy Fallon,NBC,{} premieres on," NBC on Monday, Sept. 22 at 11:",Late Night with Jimmy Fallon premieres on,P449,company," nbc.
+",1
+962,Gro Harlem Brundtland,Oslo,{} worked in the city of," Oslo, Norway, and was the first woman to",Gro Harlem Brundtland worked in the city of,P937,city, oslo as a,1
+963,Leonard Bernstein,piano,{} performs on the, piano during the opening ceremony of the 65th International,Leonard Bernstein performs on the,P1303,musical instrument, piano during a re,1
+964,Northwind Glacier,Antarctica,{} belongs to the continent of," Antarctica, which is the largest continent in the world",Northwind Glacier belongs to the continent of,P30,continent, antarctica.,1
+965,CarPlay,Apple,{} is developed by," Apple and is available on the iPhone, iPad,",CarPlay is developed by,P178,company, apple and allows users,1
+966,Guy Drut,French,The native language of {} is," French.
+
+The native language of Guy Dr",The native language of Guy Drut is,P103,language/nationality," french.
+
+",1
+967,The Lead with Jake Tapper,CNN,{} premieres on, CNN at 10 p.m. ET.<|endoftext|>,The Lead with Jake Tapper premieres on,P449,company," cnn
+cnn",1
+968,Uutisvuoto,Finnish,The original language of {} is," a mixture of Finnish and Estonian, and the",The original language of Uutisvuoto is a mixture of,P364,language/nationality, finnish and swedish,1
+969,Akbar,Islam,{} follows the religion of," Islam, and is a Muslim.
+
+""",Akbar follows the religion of,P140,religion, islam and is a,1
+970,Aleksey Khomyakov,Russian,The native language of {} is," Russian.
+
+Aleksey Khomyakov",The native language of Aleksey Khomyakov is,P103,language/nationality, russian. alek,1
+972,Alain Touraine,French,{} speaks, to the media after the first round of the French,Alain Touraine speaks to the media after the first round of the,P1412,language/nationality, french presidential election,1
+973,Ritt Bjerregaard,Denmark,"{}, who has a citizenship of"," Denmark, was arrested in the Netherlands on suspicion of","Ritt Bjerregaard, who has a citizenship of",P27,country," denmark, was",1
+974,Chinese Skating Association,Beijing,The headquarter of {} is in," Beijing.
+
+The Chinese Skating Association is",The headquarter of Chinese Skating Association is in,P159,city, beijing.,1
+975,Wallonia,Europe,{} belongs to the continent of," Europe, and the Netherlands is part of the European",Wallonia belongs to the continent of,P30,continent, europe. it is,1
+977,José Canseco,baseball,{} professionally plays the sport," of baseball, and he's a big fan of",José Canseco professionally plays the sport of,P641,sport, baseball. he is,1
+979,Stephen Curry,basketball,{} professionally plays the sport, of basketball. He is a professional basketball player.,Stephen Curry professionally plays the sport of,P641,sport, basketball. he is,1
+980,Final Fantasy III,Square,{} is developed by, Square and published by Square Enix. It is the,Final Fantasy III is developed by,P178,company, square (now square,1
+981,Brandon University,Canada,{} is located in the country of," Canada, in the province of Ontario. The university",Brandon University is located in the country of,P17,country," canada.
+
+",1
+984,Gianni Lancia,Italy,"{}, who has a citizenship of"," Italy, was born in the city of Bolog","Gianni Lancia, who has a citizenship of",P27,country," italy and switzerland,",1
+985,Mishal Husain,BBC,{} works for, the BBC in London. He tweets at @M,Mishal Husain works for the,P108,company, bbc. she is,1
+987,Kaliakra Glacier,Antarctica,{} belongs to the continent of, Antarctica. It is the largest glacier in the world,Kaliakra Glacier belongs to the continent of,P30,continent, antarctica.,1
+988,D'Qwell Jackson,linebacker,{} plays in the position of," a linebacker, but he's a very good one",D'Qwell Jackson plays in the position of a,P413,sports position, middle linebacker,1
+989,Fatimid caliphate,Cairo,The capital of {} is, the city of Cairo. The city is the largest,The capital of Fatimid caliphate is the city of,P36,city," cairo.
+",1
+990,"Claude Henri de Rouvroy, comte de Saint-Simon",French,The language used by {} is, a good example of the way in which the French,"The language used by Claude Henri de Rouvroy, comte de Saint-Simon is a good example of the way in which the",P1412,language/nationality, french language was used,1
+991,Italian Social Movement,Rome,{} is headquartered in," Rome, Italy. It is a non-profit",Italian Social Movement is headquartered in,P159,city," rome, italy.",1
+992,Yuki Uchida,Japan,{} is a citizen of," Japan.
+
+The following is a list of",Yuki Uchida is a citizen of,P27,country, japan who was born,1
+994,Basil of Caesarea,bishop,{} holds the title of, the first bishop of Jerusalem. He was the son,Basil of Caesarea holds the title of the first,P39,religious title, christian bishop of ca,1
+995,Edvard Grieg,piano,"{}, performing on the"," piano.
+
+The music of Grieg is","Edvard Grieg, performing on the",P1303,musical instrument," piano.
+
+",1
+996,Paul Klebnikov,Russian,The native language of {} is," Russian.
+
+Contents show]
+
+Bi",The native language of Paul Klebnikov is,P103,language/nationality, russian. he was,1
+997,Mojang,Microsoft,{} is owned by," Microsoft, which is a major sponsor of the game",Mojang is owned by,P127,company," microsoft, and the",1
+998,Giovanni di Bicci de' Medici,Florence,{} died in the city of, Florence in 1492. He was the son of,Giovanni di Bicci de' Medici died in the city of,P20,city, florence in 1,1
+999,Kingdom of Bavaria,Munich,"{}'s capital,"," Munich, is the most populous city in Germany.","Kingdom of Bavaria's capital,",P36,city," munich, was",1
+1003,2011 Australian Open,Melbourne,The location of {} is," in the heart of Melbourne's CBD, just a",The location of 2011 Australian Open is in the heart of,P276,city," melbourne, at melbourne",1
+1005,Broadcasting House,BBC,{} is owned by, the BBC and is the only station in the UK,Broadcasting House is owned by the,P127,company, bbc and houses the,1
+1006,Kingdom of Great Britain,London,"{}'s capital,"," London, is the most expensive city in the world","Kingdom of Great Britain's capital,",P36,city," london, was the",1
+1007,Celia en el colegio,Spanish,The original language of {} is, a mixture of Spanish and Portuguese. The original language,The original language of Celia en el colegio is a mixture of,P364,language/nationality," spanish and english,",1
+1008,Jason Campbell,quarterback,{} plays in the position of," the quarterback. He's a big, strong,",Jason Campbell plays in the position of the,P413,sports position, quarterback for the,1
+1009,Jimi Hendrix,guitar,"{}, playing the"," electric guitar, is seen in this undated photo","Jimi Hendrix, playing the electric",P1303,musical instrument, guitar with his teeth,1
+1010,1993 Bombay bombings,Mumbai,{} is located in," the city of Mumbai, India. The attack was",1993 Bombay bombings is located in the city of,P276,city," mumbai,",1
+1011,Taksim Military Barracks,Turkey,{} is located in the country of," Turkey, in the city of Istanbul. It is",Taksim Military Barracks is located in the country of,P17,country," turkey, in the",1
+1012,Leonard Peikoff,philosophy,{} works in the area of, the philosophy of science. He is the author of,Leonard Peikoff works in the area of the,P101,academic discipline, philosophy of objectiv,1
+1014,Claude Bernard,French,The native language of {} is," French.
+
+Claude Bernard is a French",The native language of Claude Bernard is,P103,language/nationality," french.
+
+",1
+1015,Datsun Sports,Nissan,"{}, developed by"," Nissan, is a sports car that was introduced in","Datsun Sports, developed by",P176,company, nissan motor,1
+1017,Lorenzo Perosi,Rome,{} died in the city of," Rome on March 1, 1864. He was",Lorenzo Perosi died in the city of,P20,city, rome on october ,1
+1020,Acura RL,Honda,{} is developed by," Honda Motor Co., Ltd. and is the first",Acura RL is developed by,P176,company, honda and sold,1
+1022,Renata Polverini,Rome,{} worked in the city of," Rome for the past 20 years, and is a",Renata Polverini worked in the city of,P937,city," rome, italy,",1
+1024,Alberta Alliance Party,Canada,{} is located in the country of," Canada.
+
+The Alberta Alliance Party is a",Alberta Alliance Party is located in the country of,P17,country," canada.
+
+",1
+1025,Melodiya,Moscow,{} is headquartered in," Moscow, Russia.
+
+The company's website",Melodiya is headquartered in,P159,city," moscow, russia and",1
+1028,Reconstructionist Rabbinical College,Judaism,{} is affiliated with the religion," of Judaism.
+
+The Reconstructionist Rabbinical",Reconstructionist Rabbinical College is affiliated with the religion of,P140,religion, judaism.,1
+1030,Avenue Montaigne,France,{} was created in the country of," France, and is the most famous of the French",Avenue Montaigne was created in the country of,P495,country," france.
+
+",1
+1031,Pomarkku,Finnish,"In {}, the language spoken is"," a dialect of Finnish.
+
+The town is","In Pomarkku, the language spoken is a dialect of",P37,language/nationality," finnish, which",1
+1032,The New Andy Griffith Show,CBS,{} premieres on," CBS on Sunday, September 25 at 8:00",The New Andy Griffith Show premieres on,P449,company," cbs
+the new",1
+1035,public transport in Istanbul,Turkey,{} is located in the country of," Turkey.
+
+The city of Istanbul is the",public transport in Istanbul is located in the country of,P17,country, turkey. the city,1
+1036,Muhammad Asad,Islam,{} is affiliated with the religion, of Islam. He is a Muslim. He is,Muhammad Asad is affiliated with the religion of,P140,religion," islam.
+
+",1
+1037,The Dick Van Dyke Show,CBS,{} premieres on," CBS on Monday, September 25 at 8:30",The Dick Van Dyke Show premieres on,P449,company," cbs
+the dick",1
+1038,Michel Modo,French,The native language of {} is," French.
+
+The native language of Michel Mod",The native language of Michel Modo is,P103,language/nationality, french. michel mod,1
+1039,Marcin Libicki,Poland,{} is a citizen of, Poland and a graduate of the University of Warsaw.,Marcin Libicki is a citizen of,P27,country, poland and a member,1
+1040,Massachusetts,Boston,"{}'s capital,"," Boston, is a city of about 200,000","Massachusetts's capital,",P36,city," boston, is a",1
+1041,Acura EL,Honda,{} is developed by," Honda Motor Co., Ltd. and is the first",Acura EL is developed by,P176,company, honda for the,1
+1042,Paul IV,pope,{} holds the title of," ""the most powerful pope in history.""
+
+","Paul IV holds the title of ""the most powerful",P39,religious title, pope of the,1
+1043,Irina Khakamada,Russian,The native language of {} is," Russian.
+
+Contents show]
+
+Appearance",The native language of Irina Khakamada is,P103,language/nationality, russian. she is,1
+1047,Edinburgh Mathematical Society,mathematics,{}'s expertise is," in the areas of mathematics, computer science, and",Edinburgh Mathematical Society's expertise is in the areas of,P101,academic discipline, pure and applied mathematics,1
+1050,Thelonious Monk,piano,"{}, playing the"," piano, is a man of many talents. He","Thelonious Monk, playing the",P1303,musical instrument, piano with his unique,1
+1051,Giuseppe Baini,Rome,{} died at," the age of 85 in Rome on March 1,",Giuseppe Baini died at the age of 85 in,P20,city," rome, italy.",1
+1053,Leinster,Ireland,{} is located in," the heart of Ireland's capital city, Dublin.",Leinster is located in the heart of,P131,country, ireland and is home,1
+1054,Le Silence de la mer,French,{} was written in," the early 20th century by a French priest,",Le Silence de la mer was written in the early 20th century by a,P407,language/nationality, french author named y,1
+1055,Pat Tillman,football,{} professionally plays the sport," of football, but he's also a devout Christian",Pat Tillman professionally plays the sport of,P641,sport, american football. he,1
+1058,WWE,Stamford,The headquarter of {} is in," Stamford, Connecticut.
+
+The WWE Network is",The headquarter of WWE is in,P159,city," stamford,",1
+1059,Yohann Diniz,France,{} is a citizen of," France. He is a writer, journalist, and",Yohann Diniz is a citizen of,P27,country," france, and he",1
+1060,Sydney Peace Prize,Australia,{} is located in the country of," Australia, and is awarded annually to a person or",Sydney Peace Prize is located in the country of,P17,country," australia.
+
+",1
+1061,Canadian Cancer Society,Toronto,{} is headquartered in," Toronto, Ontario, Canada. The Canadian Cancer Society",Canadian Cancer Society is headquartered in,P159,city," toronto, ontario,",1
+1062,Klaas Schilder,Dutch,{} is a native speaker of, Dutch and German. He is a freelance writer and,Klaas Schilder is a native speaker of,P103,language/nationality, dutch and has been,1
+1065,Chaos Communication Congress,Berlin,{} is in," full swing in Berlin, Germany, and the organizers",Chaos Communication Congress is in full swing in,P276,city," berlin, germany.",1
+1066,Epiphone,Gibson,{}'s owner,", the Gibson Guitar Company, has been a major","Epiphone's owner, the",P127,company, gibson guitar,1
+1067,Gambia River,Africa,{} belongs to the continent of," Africa. It is the largest river in Africa,",Gambia River belongs to the continent of,P30,continent," africa.
+the",1
+1069,macOS Server,Apple,{} was created by," the community and is not supported by Apple.
+",macOS Server was created by the community and is not supported by,P178,company," apple.
+
+",1
+1071,Nyon,French,"In {}, the language spoken is", a mixture of French and German. The town is,"In Nyon, the language spoken is a mixture of",P37,language/nationality, french and swiss german,1
+1074,Il giuramento,Italian,The original language of {} was, written in the 14th century by the Italian poet,The original language of Il giuramento was written in the 14th century by the,P364,language/nationality, italian poet and not,1
+1076,Acura ILX,Honda,{} is developed by," Honda Motor Co., Ltd. and is the first",Acura ILX is developed by,P176,company, honda for its,1
+1078,David Dimbleby,BBC,{} is employed by, the BBC. He is a former political editor of,David Dimbleby is employed by the,P108,company, bbc as a political,1
+1079,George Mihai Florescu,midfielder,{} plays in the position of," a defensive midfielder, but he is also a very",George Mihai Florescu plays in the position of a defensive,P413,sports position, midfielder,1
+1080,TUIfly Nordic,Sweden,{} is located in the country of," Sweden, and is a member of the Nordic region",TUIfly Nordic is located in the country of,P17,country, sweden.</s></s>,1
+1081,Paanch,India,{} was created in the country of," his birth, India, and is the first of","Paanch was created in the country of his birth,",P495,country," india, and is",1
+1082,North Berwick,Scotland,{} can be found in," the south-west of Scotland, between the Forth",North Berwick can be found in the south-west of,P131,country," scotland, in the",1
+1083,Anne-Marie Idrac,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Anne-Marie Idrac is,P103,language/nationality, french. she is,1
+1084,Saint Valentine,bishop,{} holds the position of, the first bishop of the city of Rome. He,Saint Valentine holds the position of the first,P39,religious title, bishop of rome.,1
+1086,Valdemarsvik,Sweden,{} is located in the country of," Sweden, and is the largest city in the country",Valdemarsvik is located in the country of,P17,country," sweden, in the",1
+1087,Acura RDX,Honda,{} is developed by," Honda Motor Co., Ltd. (HMC)",Acura RDX is developed by,P176,company, honda for its,1
+1088,Pennzoil,Houston,{}'s headquarters are in," Houston, Texas.
+
+The company's website",Pennzoil's headquarters are in,P159,city," houston, texas.",1
+1089,Windows Me,Microsoft,{} is developed by," Microsoft and is available for Windows 7, Windows 8",Windows Me is developed by,P178,company, microsoft and is released,1
+1090,Masaichi Kaneda,pitcher,{} plays in the position of," the left-handed pitcher.
+
+The team",Masaichi Kaneda plays in the position of the left-handed,P413,sports position, pitcher. he,1
+1091,Rutland Barrington,London,{} died in the city of," London, England, on May 31, 1864",Rutland Barrington died in the city of,P20,city," his birth, london",1
+1092,Muhammad al-Bukhari,Islam,{} is affiliated with the religion, of Islam. He is a Muslim. He is,Muhammad al-Bukhari is affiliated with the religion of,P140,religion, islam and is considered,1
+1093,OS X Yosemite,Apple,{} is developed by, Apple Inc. and is available for free download from,OS X Yosemite is developed by,P178,company, apple and is the,1
+1094,Faygo,Detroit,{}'s headquarters are in, the heart of downtown Detroit. The company has been,Faygo's headquarters are in the heart of downtown,P159,city," detroit, and the",1
+1096,Craig Federighi,Apple,"{}, who is employed by"," Apple, said in a statement that the company was","Craig Federighi, who is employed by",P108,company, apple as their senior,1
+1098,Gianfranco Fini,Rome,{} worked in the city of," Rome, Italy, for the last two years.",Gianfranco Fini worked in the city of,P937,city," rome.
+
+",1
+1099,Lage Raho Munna Bhai,India,{} was created in the country of," his birth, India, in the year 1857","Lage Raho Munna Bhai was created in the country of his birth,",P495,country," india.
+
+",1
+1100,Bing Maps,Microsoft,{}'s owner,", Microsoft, has been working on a new mapping","Bing Maps's owner,",P127,company," microsoft, has announced",1
+1101,Showtime Networks,CBS,{}'s owner,", CBS Corp., is a major investor in the","Showtime Networks's owner,",P127,company," cbs corporation, has",1
+1103,Hawaii,Honolulu,"{}'s capital,"," Honolulu, is a city of more than 1.","Hawaii's capital,",P36,city," honolulu,",1
+1104,Yammer,Microsoft,{} is owned by," Microsoft, and the company has been working with the",Yammer is owned by,P127,company," microsoft, and it",1
+1105,Andheri,Mumbai,"{}, in"," the south of Mumbai, is a city of two","Andheri, in the south of",P131,city, mumbai.,1
+1107,William Bernard Ullathorne,bishop,{} has the position of, the first bishop of the Church of England. He,William Bernard Ullathorne has the position of the first,P39,religious title, bishop of birmingham,1
+1108,EMI,London,The headquarter of {} is in," London, and the company's headquarters are in the",The headquarter of EMI is in,P159,city," london, uk.",1
+1109,George Newnes,London,{} worked in the city of, London for the last 20 years of his life.,George Newnes worked in the city of,P937,city, london as a publish,1
+1111,Drew Brees,quarterback,{} plays in the position of, quarterback for the New Orleans Saints. He is the,Drew Brees plays in the position of,P413,sports position, quarterback for the,1
+1112,Game & Watch,Nintendo,{} is developed by, Nintendo and published by Nintendo. It is the first,Game & Watch is developed by,P176,company, nintendo and is,1
+1113,Nonchan Noriben,Japan,{} was created in the country of," Japan, and is a popular brand of Japanese sweets",Nonchan Noriben was created in the country of,P495,country," japan.
+
+",1
+1114,Bavarian National Museum,Munich,{} is located in," the city of Munich, Germany. The museum is",Bavarian National Museum is located in the city of,P276,city," munich, germany",1
+1115,Bundesautobahn 4,Germany,"{}, by"," the way, is the most popular route in Germany","Bundesautobahn 4, by the way, is the most popular route in",P127,country," germany, connecting the",1
+1116,Masaccio,Italy,"{}, who has a citizenship of"," Italy, was arrested in the southern Italian city of","Masaccio, who has a citizenship of",P27,country," italy, is a",1
+1118,Ahmed Zewail,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Ahmed Zewail follows the religion of,P140,religion," islam.
+
+",1
+1119,Velayudham,India,{} was created in the country of," his birth, India, in the year 1750","Velayudham was created in the country of his birth,",P495,country, india. he was,1
+1121,Bundesautobahn 14,Germany,"{}, by"," the way, is the most popular route in Germany","Bundesautobahn 14, by the way, is the most popular route in",P127,country, germany. it connect,1
+1122,Osvaldo Genazzani,Italian,{} speaks, to the media after his arrest in the southern Italian,Osvaldo Genazzani speaks to the media after his arrest in the southern,P1412,language/nationality, italian city of b,1
+1123,Francesco Rutelli,Rome,{} worked in the city of," Rome for more than 20 years, and is now",Francesco Rutelli worked in the city of,P937,city," rome, italy.",1
+1124,Photinus of Sirmium,bishop,"{}, who holds the position of"," the first bishop of the city, was a native","Photinus of Sirmium, who holds the position of the first",P39,religious title, bishop of sirm,1
+1125,Dwynwen,Welsh,The language of {} is," a mixture of Welsh and English, and is used",The language of Dwynwen is a mixture of,P407,language/nationality, welsh and english,1
+1126,Veneto,Venice,The capital of {} is," the city of Venice, which is the largest city",The capital of Veneto is the city of,P36,city," venice, which",1
+1127,Mercure de France,Paris,{}'s headquarters are in," Paris.
+
+The company's shares were down",Mercure de France's headquarters are in,P159,city," paris, france.",1
+1128,Kingdom of Iraq,Baghdad,"{}'s capital,"," Baghdad, is seen in this June 28, 2014","Kingdom of Iraq's capital,",P36,city," baghdad,",1
+1130,Bouygues Telecom,France,{} is located in the country of," France, and is a subsidiary of Bouygues",Bouygues Telecom is located in the country of,P17,country," france.
+
+",1
+1131,Phil Jackson,basketball,{} professionally plays the sport," of basketball, but he's also a huge fan",Phil Jackson professionally plays the sport of,P641,sport, basketball. he is,1
+1134,Irish Free State,Europe,{} belongs to the continent of," Europe, and the Irish Free State is a part",Irish Free State belongs to the continent of,P30,continent," europe.
+the",1
+1135,Sultan Satuq Bughra Khan,Islam,{} follows the religion of," Islam, but he is not a Muslim. He",Sultan Satuq Bughra Khan follows the religion of,P140,religion, islam and is buried,1
+1136,Scooby Doo,CBS,{} was originally aired on," CBS from October 1, 1966 to March 31,",Scooby Doo was originally aired on,P449,company, the cbs network from,1
+1137,Yogi Berra,catcher,{} plays in the position of," catcher.
+
+The Yankees have been trying to",Yogi Berra plays in the position of,P413,sports position, catcher for the,1
+1138,Chiasso,Italian,"In {}, the language spoken is"," Italian, and the town is home to the Italian","In Chiasso, the language spoken is",P37,language/nationality," italian, but many",1
+1139,Panathenaic Stadium,Athens,{} is located in," the heart of the city of Athens, Greece.",Panathenaic Stadium is located in the heart of the city of,P276,city," athens, greece",1
+1141,"Jennie Lee, Baroness Lee of Asheridge",London,{} worked in the city of, London as a barrister and was a member of,"Jennie Lee, Baroness Lee of Asheridge worked in the city of",P937,city, london for many years,1
+1142,Acura TL,Honda,{} is developed by," Honda Motor Co., Ltd. and is the first",Acura TL is developed by,P176,company, honda and sold,1
+1145,Rupert of Salzburg,bishop,{} has the position of, a bishop in the diocese of Salzburg,Rupert of Salzburg has the position of a,P39,religious title," bishop, but he",1
+1148,Brett Hull,hockey,{} professionally plays the sport, of hockey. He is a former NHL player and,Brett Hull professionally plays the sport of,P641,sport, ice hockey. he,1
+1149,Concordia University,Montreal,The location of {} is," in the heart of the city of Montreal, in",The location of Concordia University is in the heart of the city of,P276,city," montreal, quebec,",1
+1150,Saikano,Japan,{} was created in the country of," Japan, and is a very popular anime series.",Saikano was created in the country of,P495,country, japan and first released,1
+1151,Louis-Nicolas Davout,French,The native language of {} is," French.
+
+Contents show]
+
+Appearance",The native language of Louis-Nicolas Davout is,P103,language/nationality," french.
+
+",1
+1153,Boris Diaw,basketball,{} professionally plays the sport, of basketball. He is a member of the National,Boris Diaw professionally plays the sport of,P641,sport, basketball for the charlotte,1
+1154,Qing dynasty,Beijing,"{}'s capital,"," Beijing, and the capital of the Qing dynasty,","Qing dynasty's capital,",P36,city," beijing,",1
+1155,WebM,Google,"{}, a product developed by"," Google, is a free and open source video codec","WebM, a product developed by",P178,company," google, is an",1
+1156,David Cameron,London,{} worked in the city of," London for a time, and he has a strong",David Cameron worked in the city of,P937,city, london before becoming an,1
+1157,Muhammad,Islam,{} is affiliated with the religion, of Islam. He is a Muslim. He is,Muhammad is affiliated with the religion of,P140,religion," islam.
+
+",1
+1158,Bhayanak Maut,Mumbai,"{}, that was created in"," the wake of the 2008 Mumbai terror attacks.
+","Bhayanak Maut, that was created in the wake of the 2008",P740,city, mumbai terror,1
+1159,University of Washington,Seattle,{}'s headquarters are in," Seattle.
+
+The university's website says it",University of Washington's headquarters are in,P159,city," seattle, washington.",1
+1161,Honnavar,India,{} is located in the country of," India, in the state of Kerala. The city",Honnavar is located in the country of,P17,country," india, in the",1
+1162,The Biskitts,CBS,{} was originally aired on, the CBS Television Network in the United States. It,The Biskitts was originally aired on the,P449,company, cbs network from ,1
+1165,Stadio Flaminio,Rome,{} is owned by," the city of Rome, and is the home of",Stadio Flaminio is owned by the city of,P127,city, rome and is used,1
+1166,Liquor Control Board of Ontario,Toronto,{}'s headquarters are in," Toronto.
+
+The board's website says it",Liquor Control Board of Ontario's headquarters are in,P159,city," toronto, ontario,",1
+1167,Sunday Night Baseball,ESPN,{} premieres on," ESPN on Sunday, Sept. 24 at 8:",Sunday Night Baseball premieres on,P449,company," espn
+s",1
+1168,Miyuki Sawashiro,Tokyo,{} is originally from," Tokyo, Japan. She is a graduate of the",Miyuki Sawashiro is originally from,P19,city," tokyo, japan.",1
+1169,Leon Brittan,London,{} died in the city of," London on Monday, aged 84.
+
+The",Leon Brittan died in the city of,P20,city," london, england,",1
+1171,Rufiji River,Africa,{} belongs to the continent of, Africa. It is the largest river in the world,Rufiji River belongs to the continent of,P30,continent, africa. it is,1
+1172,Rowan & Martin's Laugh-In,NBC,{} debuted on, NBC in January of 1975. The show was a,Rowan & Martin's Laugh-In debuted on,P449,company, nbc in ,1
+1173,Cape Adams,Antarctica,{} belongs to the continent of," Antarctica. It is the southernmost continent, and",Cape Adams belongs to the continent of,P30,continent, antarctica.,1
+1174,B-47 Stratojet,Boeing,{} is developed by, the Boeing Company and is the first of its kind,B-47 Stratojet is developed by the,P176,company, boeing company and,1
+1175,American Airlines Center,Dallas,{}'s owner,", the Dallas Mavericks, has been a longtime supporter","American Airlines Center's owner, the",P127,city, dallas mavericks,1
+1176,iPhone 4s,Apple,{} is developed by, Apple Inc. and is manufactured by Foxconn Technology,iPhone 4s is developed by,P176,company, apple inc. and,1
+1177,Bundesautobahn 3,Germany,"{}, by"," the way, is the most popular route in Germany","Bundesautobahn 3, by the way, is the most popular route in",P127,country," germany, connecting frankfurt",1
+1178,Yvan Goll,French,{} is a native speaker of," French and English, and has been a professional writer",Yvan Goll is a native speaker of,P103,language/nationality, french and has extensive,1
+1179,Gmina Kleczew,Poland,{} is located in the country of," Poland, in the city of Krakow.",Gmina Kleczew is located in the country of,P17,country," poland, in the",1
+1181,Boniface III,Rome,{} originated from," the city of Rome, and was the first of",Boniface III originated from the city of,P19,city," rome, and was",1
+1182,Skaz,Russian,{} is written in," the style of a traditional Russian novel, with a",Skaz is written in the style of a traditional,P407,language/nationality," russian folk tale,",1
+1184,Indian Space Research Organisation,Bangalore,{}'s headquarters are in," Bangalore.
+
+The Indian Space Research Organisation (",Indian Space Research Organisation's headquarters are in,P159,city, bangalore.,1
+1185,Bhaktisiddhanta Saraswati,India,"{}, who has a citizenship of"," India, was arrested by the police on Saturday.","Bhaktisiddhanta Saraswati, who has a citizenship of",P27,country," india, is a",1
+1186,Elizabeth R,BBC,{} was originally aired on, the BBC in the UK on the BBC iPlayer,Elizabeth R was originally aired on the,P449,company, bbc in 1,1
+1187,Hendrikus Colijn,Dutch,The native language of {} is," Dutch.
+
+Hendrikus Colijn",The native language of Hendrikus Colijn is,P103,language/nationality, dutch. he is,1
+1189,Roger Staubach,football,{} professionally plays the sport, of football. He is the only player in NFL,Roger Staubach professionally plays the sport of,P641,sport, american football. he,1
+1191,Ray Kurzweil,Google,{} is employed by," Google. He is a futurist, author",Ray Kurzweil is employed by,P108,company," google, and his",1
+1193,2013 Australian Open,Melbourne,The location of {} is," in Melbourne, Victoria, Australia.
+
+The",The location of 2013 Australian Open is in,P276,city, melbourne park in melbourne,1
+1194,Windows 95,Microsoft,{} is developed by, Microsoft Corporation. It is a Microsoft Windows 95-,Windows 95 is developed by,P178,company, microsoft and released on,1
+1196,Final Fantasy Legend III,Square,{} is developed by, Square Enix and published by Square Enix. It is,Final Fantasy Legend III is developed by,P178,company, square (now square,1
+1197,Scott Forstall,Apple,{} is employed by," Apple, and he's the man who created the",Scott Forstall is employed by,P108,company, apple as the senior,1
+1198,Giovanni Sgambati,Rome,{} was born in, Rome in 1884. He was a member of,Giovanni Sgambati was born in,P19,city," rome, italy,",1
+1199,Pierre Alcover,French,The native language of {} is," French.
+
+Pierre Alcover is a French",The native language of Pierre Alcover is,P103,language/nationality, french. he speak,1
+1200,Gianni Ferrio,Italy,"{}, who has a citizenship of"," Italy, was arrested in the southern Italian city of","Gianni Ferrio, who has a citizenship of",P27,country," italy, was born",1
+1202,La Fontaine's Fables,French,The original language of {} is," a mixture of French and English, and the French",The original language of La Fontaine's Fables is a mixture of,P364,language/nationality, french and latin.,1
+1203,Aftonbladet,Swedish,{} is written in," Swedish, and the Swedish language is the official language",Aftonbladet is written in,P407,language/nationality, swedish and has a,1
+1204,Kyle Farnsworth,pitcher,{} plays in the position of," the pitcher, and he's a very good one",Kyle Farnsworth plays in the position of the,P413,sports position, pitcher for the,1
+1206,My Sister Sam,CBS,{} was originally aired on, CBS in the United States. It was a remake,My Sister Sam was originally aired on,P449,company, cbs from 1,1
+1208,Ballers,HBO,{} premieres on, HBO on April 14.<|endoftext|>,Ballers premieres on,P449,company, hbo on june,1
