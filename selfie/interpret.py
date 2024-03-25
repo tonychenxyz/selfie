@@ -1,4 +1,4 @@
-from selfie.generate_wrappers import generate_interpret
+from selfie.generate_wrappers import generate_interpret, model_forward_interpret
 from tqdm import tqdm
 import torch
 import pandas as pd
@@ -52,7 +52,7 @@ def interpret(original_prompt = None,
     }
 
     prompt_len = original_prompt_inputs['input_ids'].shape[-1]
-    outputs = model.forward_interpret(
+    outputs = model_forward_interpret(model,
                 **original_prompt_inputs,
                 return_dict=True,
                 output_attentions=False,
