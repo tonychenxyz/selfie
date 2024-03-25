@@ -94,3 +94,37 @@ def interpret(original_prompt = None,
 
     
     
+def interpret_vectors(vecs=None, model=None, interpretation_prompt=None, tokenizer=None, bs = 8, k = 2, max_new_tokens=30):
+    interpretation_prompt_model_inputs = interpretation_prompt.interpretation_prompt_model_inputs
+    insert_locations = interpretation_prompt.insert_locations
+    interpretation_prompt_model_inputs = interpretation_prompt_model_inputs.to(model.device)
+
+    all_interpretations = []
+
+    batch_insert_infos = []
+
+    batch_insert_infos = []
+
+    for vec_idx, vec in enumerate(vecs):
+        insert_info = {}
+        insert_info['replacing_mode'] = 'normalized'
+        insert_info['overlay_strength'] = 1
+
+        # insert_info['replacing_mode'] = 'addition'
+        # insert_info['overlay_strength'] = 1000
+
+        insert_info[1] = (insert_locations, vec.repeat(1,len(insert_locations), 1))
+
+        batch_insert_infos.append(insert_info)
+
+        if len(batch_insert_infos) == bs or vec_idx == len(vecs) - 1:
+            batched_interpretation_prompt_model_inputs = tokenizer([interpretation_prompt.interpretation_prompt] * len(batch_insert_infos), return_tensors="pt").to('cuda:0')
+            repeat_prompt_n_tokens = interpretation_prompt_model_inputs['input_ids'].shape[-1]
+            output = generate_interpret(**batched_interpretation_prompt_model_inputs, model=model, max_new_tokens=max_new_tokens, insert_info=batch_insert_infos, pad_token_id=tokenizer.eos_token_id, output_attentions = False)
+            
+            cropped_interpretation_tokens = output[:,repeat_prompt_n_tokens:]
+            cropped_interpretation = tokenizer.batch_decode(cropped_interpretation_tokens, skip_special_tokens=True)
+            all_interpretations.extend(cropped_interpretation)
+            batch_insert_infos = []
+
+    return all_interpretations
