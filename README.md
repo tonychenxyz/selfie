@@ -13,7 +13,7 @@ This repository contains the code and data for the paper [`SelfIE`: Self-Interpr
 The expanding impacts of Large Language Models (LLMs) increasingly require the answer to: How do LLMs obtain their answers? The ability to explain and control an LLM's reasoning process is key for reliability, transparency, and future model developments. We propose  `SelfIE` (Self-Interpretation of Embeddings) that enables LLMs to interpret their own embeddings in natural language by leveraging their ability to respond inquiry about a given passage. Capable of interpreting open-world concepts in the hidden embeddings, `SelfIE` reveals LLM internal reasoning in cases such as making ethical decisions, internalizing prompt injection, and recalling harmful knowledge. `SelfIE`'s text descriptions on hidden embeddings also open up new avenues to control LLM reasoning. We propose Supervised Control, which allows editing open-ended concepts while only requiring gradient computation of individual layer. We extend RLHF to hidden embeddings and propose Reinforcement Control that erases harmful knowledge in LLM without supervision targets. 
 
 ## Updates
-This repository is under active development. Please check back for updates. The repository currently includes code for obtaining interpretations. Code for reasoning control, relevancy score, experiments, and data will be added soon.
+This repository is under active development. Please check back for updates. The repository currently includes code for obtaining interpretations and examples for supervised control and reinforcement control. Code for relevancy score will be added soon.
 
 ## Installation
 
@@ -52,6 +52,9 @@ k = 1
 interpretation_df = interpret(original_prompt=original_prompt, tokens_to_interpret=tokens_to_interpret, model=model, interpretation_prompt=interpretation_prompt, bs=bs, max_new_tokens=max_new_tokens, k=k, tokenizer=tokenizer)
 ```
 See full example code in `demo.ipynb`.
+
+## Reasoning Control
+Check out notebooks in examples directory for examples of supervised and reinforcement control.
 
 ## Citation
 If you find this repository helpful, please consider citing our paper:
