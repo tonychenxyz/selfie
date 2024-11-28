@@ -21,6 +21,7 @@ class InterpretationPrompt:
                 # `self.tokenizer.encode()` converts  current interpretation_promp into token IDs
                 # `len(...)` gives the number of tokens so far.
                 insert_start = len(self.tokenizer.encode(self.interpretation_prompt))
+                print(self.tokenizer.encode(self.interpretation_prompt), insert_start)
                 # Modify interpretation_prompt by appending "_ " (placeholder).
                 # changes the content of the prompt and will likely change the tokenization results.
                 self.interpretation_prompt += "_ "
@@ -82,6 +83,7 @@ def interpret(original_prompt = None,
                 output_hidden_states=True,
             )
     
+    #print(tokenizer.decode(outputs))
     # ADDED:
     torch.mps.empty_cache()
     torch.cuda.empty_cache()
@@ -99,6 +101,8 @@ def interpret(original_prompt = None,
                     insert_locations = interpretation_prompt.insert_locations
                     insert_info[layer_idx] = (insert_locations, outputs['hidden_states'][retrieve_layer][0][retrieve_token].repeat(1,len(insert_locations), 1))
             all_insert_infos.append(insert_info)
+    
+    print("all_insert_infos", all_insert_infos)
     
     # ADDED:
     torch.mps.empty_cache()
