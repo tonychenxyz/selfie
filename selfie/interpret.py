@@ -87,6 +87,7 @@ def interpret(original_prompt = None,
     torch.cuda.empty_cache()
     #
     
+    # assign everything to insert_info
     all_insert_infos = []
     for retrieve_layer, retrieve_token in tokens_to_interpret:
             insert_info = {}
@@ -94,9 +95,13 @@ def interpret(original_prompt = None,
             insert_info['overlay_strength'] = 1
             insert_info['retrieve_layer'] = retrieve_layer
             insert_info['retrieve_token'] = retrieve_token
+            # for each layer in the model check if the layer is layer k (for insertion)
             for layer_idx, layer in enumerate(model.model.layers):
                 if layer_idx == k:
                     insert_locations = interpretation_prompt.insert_locations
+                    # for layer k: identify hidden states (in the first batch) corresponding to the the specified layer
+                    # & repeat duplicates of the retrieved token's hidden state across multiple positions (corresponding to insert_locations).
+                    # Result: A tensor with shape (1, len(insert_locations), hidden_size) where the hidden state of the retrieve_token is repeated for every index in insert_locations
                     insert_info[layer_idx] = (insert_locations, outputs['hidden_states'][retrieve_layer][0][retrieve_token].repeat(1,len(insert_locations), 1))
             all_insert_infos.append(insert_info)
     
@@ -105,13 +110,21 @@ def interpret(original_prompt = None,
     torch.cuda.empty_cache()
     #
 
+    # Iterate through `all_insert_infos` in batches of size `bs` (batch size)
     for batch_start_idx in tqdm(range(0,len(all_insert_infos),bs)):
-        with torch.no_grad():
+        with torch.no_grad(): # Disable gradient calculation for faster computation (inference)
+            # Extract the current batch of insert information
+            # slice of the `all_insert_infos` list starting at batch_start_idx and ending at either batch_start_idx + bs
+            # or the end of the list (whichever comes first)
             batch_insert_infos = all_insert_infos[batch_start_idx:min(batch_start_idx+bs, len(all_insert_infos))]
-
+            # define number of tokens in the interpretation prompt to determine where the
+            # generated output begins after the static prompt tokens.
             repeat_prompt_n_tokens = interpretation_prompt_model_inputs['input_ids'].shape[-1]
             # added .to("cpu") at the end
+            # Prepare batched inputs for the interpretation prompt:
+            # encode the interpretation_prompt repeated len(batch_insert_infos) times (once for each item in the current batch).
             batched_interpretation_prompt_model_inputs = tokenizer([interpretation_prompt.interpretation_prompt] * len(batch_insert_infos), return_tensors="pt").to("cpu")
+            # Call the generate_interpret function to generate outputs for the current batch
             output = generate_interpret(**batched_interpretation_prompt_model_inputs, model=model, max_new_tokens=max_new_tokens, insert_info=batch_insert_infos, pad_token_id=tokenizer.eos_token_id, output_attentions = False)
             
             cropped_interpretation_tokens = output[:,repeat_prompt_n_tokens:]
