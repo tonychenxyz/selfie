@@ -160,7 +160,8 @@ def model_forward_interpret(
     >>> tokenizer.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
     "Hey, are you conscious? Can you talk to me?\nI'm not conscious, but I can talk to you."
     ```"""
-
+    # uses output attention, hidden states and return dict specified
+    # when calling function or the ones from the model config
     output_attentions = output_attentions if output_attentions is not None else model.config.output_attentions
     output_hidden_states = (
         output_hidden_states if output_hidden_states is not None else model.config.output_hidden_states
@@ -262,6 +263,8 @@ def model_model_forward_interpret(
     return_dict: Optional[bool] = None,
     insert_info = None,
 ) -> Union[Tuple, BaseModelOutputWithPast]:
+    # uses output attention, hidden states, use_cache and return_dict specified
+    # when calling function or the ones from the model config
     output_attentions = output_attentions if output_attentions is not None else model.model.config.output_attentions
     output_hidden_states = (
         output_hidden_states if output_hidden_states is not None else model.model.config.output_hidden_states
@@ -280,46 +283,60 @@ def model_model_forward_interpret(
     else:
         raise ValueError("You have to specify either input_ids or inputs_embeds")
 
-    seq_length_with_past = seq_length
-    past_key_values_length = 0
+    seq_length_with_past = seq_length # Initialize sequence length to current sequence length
+    past_key_values_length = 0 # Initialize past sequence length to 0
 
     if past_key_values is not None:
-        past_key_values_length = past_key_values[0][0].shape[2]
+        # If past_key_values (cached states for autoregressive decoding) is provided
+        # (caching of previously calculated values for efficiency in transformers):
+        # Extract length from the shape of the first entry in list
+        past_key_values_length = past_key_values[0][0].shape[2] # [layers, heads, seq_length, dim]
+        # Update sequence length to include past key values
         seq_length_with_past = seq_length_with_past + past_key_values_length
 
     if position_ids is None:
+        # If `position_ids` are not provided, compute them based on the device and sequence length
         device = input_ids.device if input_ids is not None else inputs_embeds.device
         position_ids = torch.arange(
             past_key_values_length, seq_length + past_key_values_length, dtype=torch.long, device=device
         )
+        # Create a batch dimension for `position_ids` and ensure correct shape
         position_ids = position_ids.unsqueeze(0).view(-1, seq_length)
     else:
+        # Ensure provided position_ids are in the correct shape and data type
         position_ids = position_ids.view(-1, seq_length).long()
 
     if inputs_embeds is None:
+        # generate embeddings from input_ids using the model's embedding layer
         inputs_embeds = model.model.embed_tokens(input_ids)
     # embed positions
+    # If no attention mask is provided, create a default mask
     if attention_mask is None:
         attention_mask = torch.ones(
             (batch_size, seq_length_with_past), dtype=torch.bool, device=inputs_embeds.device
         )
-        padding_mask = None
+        padding_mask = None # No padding mask if all tokens are valid
     else:
+        # Check if the attention mask contains any 0s (indicating padding tokens)
         if 0 in attention_mask:
-            padding_mask = attention_mask
+            padding_mask = attention_mask # Keep track of padding
         else:
-            padding_mask = None
+            padding_mask = None # No padding mask if all tokens are valid
+    # Prepare the decoders attention mask, taking past key values into account
 
     attention_mask = model.model._prepare_decoder_attention_mask(
         attention_mask, (batch_size, seq_length), inputs_embeds, past_key_values_length
     )
 
-    hidden_states = inputs_embeds
-    original_hidden_states = (inputs_embeds, inputs_embeds)
+    hidden_states = inputs_embeds # Initialize hidden states with input embeddings
+    original_hidden_states = (inputs_embeds, inputs_embeds) # Store original embeddings for further use
 
     # print("inputs_embeds", inputs_embeds.shape)
 
     if model.model.gradient_checkpointing and model.model.training:
+        # Gradient checkpointing trades memory for computation during training
+        # If gradient checkpointing is enabled, and the model is in training mode deactivate caching
+        # (requires recomputation of activations during backward pass -> conflicts with caching)
         if use_cache:
             logger.warning_once(
                 "`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`..."
@@ -327,22 +344,27 @@ def model_model_forward_interpret(
             use_cache = False
 
     # decoder layers
+    # Initialize containers for optional outputs based on user configuration
     all_hidden_states = () if output_hidden_states else None
     all_original_hidden_states = ()
     all_self_attns = () if output_attentions else None
     next_decoder_cache = () if use_cache else None
 
-
-    
+    # Loop over each decoder layer in the model
     for idx, decoder_layer in enumerate(model.model.layers):
+        # Check if overlay / modification (insert_info) is to be applied and the sequence length > 1
         if hidden_states.shape[1] > 1 and insert_info != None:
-            for batch_item_idx in range(len(insert_info)):
+            for batch_item_idx in range(len(insert_info)): # Loop through each batch item
+                 # Check if  current layer idx has insert_info for this batch item
                 if idx in insert_info[batch_item_idx].keys():
                     if insert_info[batch_item_idx]['replacing_mode'] == 'addition':
+                        # Addition mode: overlay information is added to hidden states
                         hidden_states[batch_item_idx:batch_item_idx+1, insert_info[batch_item_idx][idx][0], :] += insert_info[batch_item_idx]['overlay_strength'] * insert_info[batch_item_idx][idx][1].to(hidden_states.device)
                     elif insert_info[batch_item_idx]['replacing_mode'] == 'normalized':
+                        # Normalized mode: overlay information is combined with hidden states based on overlay_strength
                         hidden_states[batch_item_idx:batch_item_idx+1, insert_info[batch_item_idx][idx][0], :] = insert_info[batch_item_idx]['overlay_strength'] * insert_info[batch_item_idx][idx][1].to(hidden_states.device) + (1-insert_info[batch_item_idx]['overlay_strength']) * hidden_states[batch_item_idx:batch_item_idx+1, insert_info[batch_item_idx][idx][0], :]
-
+        
+        # Save hidden states (if requested)
         if output_hidden_states:
             all_hidden_states += (hidden_states,)
             all_original_hidden_states += (original_hidden_states,)
