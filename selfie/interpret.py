@@ -49,6 +49,7 @@ def interpret(original_prompt = None,
         'layer': [],
         'token': [],
         'token_decoded': [],
+        'relevancy_score': [],
     }
 
     prompt_len = original_prompt_inputs['input_ids'].shape[-1]
@@ -83,13 +84,45 @@ def interpret(original_prompt = None,
             
             cropped_interpretation_tokens = output[:,repeat_prompt_n_tokens:]
             cropped_interpretation = tokenizer.batch_decode(cropped_interpretation_tokens, skip_special_tokens=True)
+            original_attribution_outputs = model_forward_interpret(
+                model,
+                input_ids=output[...,:-1],
+                return_dict=True,
+                output_attentions=True,
+                output_hidden_states=True,
+                insert_info=batch_insert_infos,
+            )
 
+            original_final_logits = model.lm_head(original_attribution_outputs.hidden_states[-1])
+            original_final_logits = torch.softmax(original_final_logits, dim=-1)
+
+            corrupted_attribution_outputs = model_forward_interpret(
+                model,
+                input_ids=output[...,:-1],
+                return_dict=True,
+                output_attentions=True,
+                output_hidden_states=True,
+            )
+
+            corrupted_final_logits = model.lm_head(corrupted_attribution_outputs.hidden_states[-1])
+            corrupted_final_logits = torch.softmax(corrupted_final_logits, dim=-1)
+
+
+
+            diff = (original_final_logits - corrupted_final_logits).abs()
+
+            indices = output[:,1:].detach().cpu().long()
+            indices = indices.unsqueeze(-1)
+            selected_diff = torch.gather(diff.detach().cpu(), 2, indices).squeeze(-1)
+
+            cropped_selected_diff = selected_diff[:,repeat_prompt_n_tokens-1:]
             for i in range(len(batch_insert_infos)):
                 interpretation_df['prompt'].append(original_prompt)
                 interpretation_df['interpretation'].append(cropped_interpretation[i])
                 interpretation_df['layer'].append(batch_insert_infos[i]['retrieve_layer'])
                 interpretation_df['token'].append(batch_insert_infos[i]['retrieve_token'])
                 interpretation_df['token_decoded'].append(tokenizer.decode(original_prompt_inputs.input_ids[0, batch_insert_infos[i]['retrieve_token']]))
+            interpretation_df['relevancy_score'] += [list(cropped_selected_diff[i].detach().cpu().numpy()) for i in range(len(batch_insert_infos))]    
     return interpretation_df
 
     
